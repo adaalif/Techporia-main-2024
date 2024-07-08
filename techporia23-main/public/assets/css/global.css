@@ -5,7 +5,7 @@
     --secondary-color: #68a504;
     --tertiary-color: #06d000;
     --accent-color: #97fb57;
-    --black: #141414;
+    --black: #1F004B;
     --text: #cdcdcd;
     --text-dark: #838383;
     --gray: #3f3f3f;
@@ -1505,7 +1505,9 @@ textarea {
     aspect-ratio: 13/14;
     border-radius: 0;
     width: 350px;
-}
+    border: 2px solid var(--neon-border-color, #54EFEA); /* Default fallback color provided */
+    box-shadow: 0 0 20px var(--neon-glow-color, #EC00F0);
+} 
 @media (max-width: 1200px) {
     .competition-grid .grid-child {
         width: 300px;
