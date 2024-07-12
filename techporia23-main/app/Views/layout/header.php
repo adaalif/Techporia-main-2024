@@ -1,7 +1,7 @@
 <header>
     <div class="header-wrapper">
         <a class="header-logo" href="<?php echo base_url(); ?>">
-            <img src="<?php echo base_url(); ?>/assets/images/logo.webp" alt="Technology Euphoria">
+            <img src="<?php echo base_url(); ?>/assets/images/Logo TECHPO 2024.png" alt="Technology Euphoria">
             <span>Technology Euphoria</span>
         </a>
         <nav>
@@ -16,6 +16,37 @@
                         <i class="bx bx-chevron-down" aria-hidden="true"></i>
                     </button>
                     <div id="competition-nav" class="nav-box" style="padding-right: 2rem;">
+                        <ul>
+                            <li>
+                                <a class="nav-data-link"
+                                href="<?= base_url('kompetisi/business-plan'); ?>">Business Plan</a>
+                            </li>
+                            <li>
+                                <a class="nav-data-link"
+                                href="<?= base_url('kompetisi/competitive-programming'); ?>">Competitive Programming</a>
+                            </li>
+                            <li>
+                                <a class="nav-data-link"
+                                href="<?= base_url('kompetisi/networking-competition'); ?>">Networking Competition</a>
+                            </li>
+                            <li>
+                                <a class="nav-data-link"
+                                href="<?= base_url('kompetisi/ui-ux'); ?>">UI/UX Design</a>
+                            </li>
+                            <li>
+                                <a class="nav-data-link"
+                                href="<?= base_url('kompetisi/web-development'); ?>">Web Development</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-link nav-dropdown" data-dropdown="bazar-nav" aria-haspopup="true"
+                        aria-expanded="false" aria-label="competition">
+                        Art & Bazar
+                        <i class="bx bx-chevron-down" aria-hidden="true"></i>
+                    </button>
+                    <div id="bazar-nav" class="nav-box" style="padding-right: 2rem;">
                         <ul>
                             <li>
                                 <a class="nav-data-link"

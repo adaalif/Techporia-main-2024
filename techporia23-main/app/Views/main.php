@@ -22,10 +22,10 @@
 
     <div class="section light" id="about">
         <div class="about">
-            <img src="<?php echo base_url('assets/images/maskot.webp') ?>" alt="maskot" class="onscroll-r"
+            <img src="<?php echo base_url('assets/images/MASKOT 2.png') ?>" alt="maskot" class="onscroll-r"
                 style="--delay: 0;" />
             <div class="about-detail onscroll-r" style="--delay: 1;">
-                <h1>About Technology Euphoria</h1>
+                <h1>About <br>Technology Euphoria</h1>
                 <p>
                     Techphoria merupakan serangkaian acara IT tahunan dengan fokus utama kompetisi yang diperuntukan
                     bagi Universitas/Politeknik
@@ -93,7 +93,7 @@
         </div>
     </div>
 
-    <div class="section light" id="seminar">
+    <!-- <div class="section light" id="seminar">
         <div class="section-seminar">
             <div class="item center onscroll-r">
                 <h1>SEMINAR NASIONAL</h1>
@@ -127,47 +127,47 @@
                 <img src="/assets/images/seminar.webp" alt="Seminar Nasional" class="seminar-img" />
             </div>
         </div>
-    </div>
+    </div> -->
 
     <div class="section onscroll" id="kilas-balik">
-        <h1>KILAS BALIK TECHNOLOGY EUPHORIA 2022</h1>
+        <h1>KILAS BALIK TECHNOLOGY EUPHORIA 2023</h1>
         <p>Dalam Technology Euphoria ini, terdapat beberapa lomba yang diadakan seperti dibawah ini</p>
         <a href="<?= base_url('sejarah'); ?>" class="btn btn-fancy">Selengkapnya</a>
         <div class="kilas-balik-grid">
             <div class="grid-child onscroll">
                 <img src="<?= base_url('assets-old/sejarah-image/techpho22-1.jpg'); ?>" alt="kilas balik" />
                 <div class="overlay">
-                    <a href="<?= base_url('sejarah'); ?>">Kilas Balik Technology Euphoria 2022</a>
+                    <a href="<?= base_url('sejarah'); ?>">Kilas Balik Technology Euphoria 2023</a>
                 </div>
             </div>
             <div class="grid-child onscroll" style="--delay: 1;">
                 <img src="<?= base_url('assets-old/sejarah-image/techpho22-2.jpg'); ?>" alt="kilas balik" />
                 <div class="overlay">
-                    <a href="<?= base_url('sejarah'); ?>">Kilas Balik Technology Euphoria 2022</a>
+                    <a href="<?= base_url('sejarah'); ?>">Kilas Balik Technology Euphoria </a>
                 </div>
             </div>
             <div class="grid-child onscroll">
                 <img src="<?= base_url('assets-old/sejarah-image/techpho22-3.jpg'); ?>" alt="kilas balik" />
                 <div class="overlay">
-                    <a href="<?= base_url('sejarah'); ?>">Kilas Balik Technology Euphoria 2022</a>
+                    <a href="<?= base_url('sejarah'); ?>">Kilas Balik Technology Euphoria 2023</a>
                 </div>
             </div>
             <div class="grid-child onscroll" style="--delay: 1;">
                 <img src="<?= base_url('assets-old/sejarah-image/techpho22-4.jpg'); ?>" alt="kilas balik" />
                 <div class="overlay">
-                    <a href="<?= base_url('sejarah'); ?>">Kilas Balik Technology Euphoria 2022</a>
+                    <a href="<?= base_url('sejarah'); ?>">Kilas Balik Technology Euphoria 2023</a>
                 </div>
             </div>
             <div class="grid-child onscroll">
                 <img src="<?= base_url('assets-old/sejarah-image/techpho22-5.jpg'); ?>" alt="kilas balik" />
                 <div class="overlay">
-                    <a href="<?= base_url('sejarah'); ?>">Kilas Balik Technology Euphoria 2022</a>
+                    <a href="<?= base_url('sejarah'); ?>">Kilas Balik Technology Euphoria 2023</a>
                 </div>
             </div>
             <div class="grid-child onscroll" style="--delay: 1;">
                 <img src="<?= base_url('assets-old/sejarah-image/techpho22-6.jpg'); ?>" alt="kilas balik" />
                 <div class="overlay">
-                    <a href="<?= base_url('sejarah'); ?>">Kilas Balik Technology Euphoria 2022</a>
+                    <a href="<?= base_url('sejarah'); ?>">Kilas Balik Technology Euphoria 2023</a>
                 </div>
             </div>
         </div>

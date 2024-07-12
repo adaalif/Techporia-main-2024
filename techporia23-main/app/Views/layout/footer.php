@@ -1,7 +1,7 @@
 <footer id="contact">
     <div class="footer-detail">
         <div class="item onscroll-r">
-            <img src="/assets/images/logo.webp" alt="Technology Euphoria" />
+        <img src="<?php echo base_url(); ?>/assets/images/Logo TECHPO 2024.png" alt="Technology Euphoria">
         </div>
         <div class="item onscroll-r" style="--delay: 1;">
             <h1>Address</h1>
