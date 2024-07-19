@@ -88,7 +88,7 @@ class MainController extends BaseController
 
     public function sejarah($tahun = null)
     {
-        if ($tahun < 2014 || $tahun > 2022) {
+        if ($tahun < 2014 || $tahun > 2024) {
             throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
         } else {
             return view('sejarah/sejarah-' . $tahun, [
