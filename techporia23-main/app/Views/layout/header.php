@@ -50,24 +50,17 @@
                         <ul>
                             <li>
                                 <a class="nav-data-link"
-                                href="<?= base_url('kompetisi/business-plan'); ?>">Business Plan</a>
+                                href="<?= base_url('bazar/Musik'); ?>">Musik</a>
                             </li>
                             <li>
                                 <a class="nav-data-link"
-                                href="<?= base_url('kompetisi/competitive-programming'); ?>">Competitive Programming</a>
+                                href="<?= base_url('kompetisi/Lukis'); ?>">Lukis</a>
                             </li>
                             <li>
                                 <a class="nav-data-link"
-                                href="<?= base_url('kompetisi/networking-competition'); ?>">Networking Competition</a>
+                                href="<?= base_url('kompetisi/Tari'); ?>">Tari</a>
                             </li>
-                            <li>
-                                <a class="nav-data-link"
-                                href="<?= base_url('kompetisi/ui-ux'); ?>">UI/UX Design</a>
-                            </li>
-                            <li>
-                                <a class="nav-data-link"
-                                href="<?= base_url('kompetisi/web-development'); ?>">Web Development</a>
-                            </li>
+                            
                         </ul>
                     </div>
                 </li>

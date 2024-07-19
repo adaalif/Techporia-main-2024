@@ -91,3 +91,140 @@ WHERE `context` IS NULL', [], false)
 24 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
 25 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
 26 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Docs\\GitHub\\Techporia-main-2024\\techporia23-main\\public\\index.php')
+ERROR - 2024-07-19 18:46:46 --> mysqli_sql_exception: Duplicate entry '1' for key 'PRIMARY' in D:\Docs\GitHub\Techporia-main-2024\techporia23-main\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Docs\GitHub\Techporia-main-2024\techporia23-main\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ko...', 0)
+#1 D:\Docs\GitHub\Techporia-main-2024\techporia23-main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ko...')
+#2 D:\Docs\GitHub\Techporia-main-2024\techporia23-main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ko...')
+#3 D:\Docs\GitHub\Techporia-main-2024\techporia23-main\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ko...', NULL, false)
+#4 D:\Docs\GitHub\Techporia-main-2024\techporia23-main\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 D:\Docs\GitHub\Techporia-main-2024\techporia23-main\app\Database\Seeds\KompetisiSeeder.php(21): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 D:\Docs\GitHub\Techporia-main-2024\techporia23-main\vendor\codeigniter4\framework\system\Database\Seeder.php(146): App\Database\Seeds\KompetisiSeeder->run()
+#7 D:\Docs\GitHub\Techporia-main-2024\techporia23-main\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 D:\Docs\GitHub\Techporia-main-2024\techporia23-main\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#9 D:\Docs\GitHub\Techporia-main-2024\techporia23-main\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#10 D:\Docs\GitHub\Techporia-main-2024\techporia23-main\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-07-19 18:47:08 --> mysqli_sql_exception: Duplicate entry '1' for key 'PRIMARY' in D:\Docs\GitHub\Techporia-main-2024\techporia23-main\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Docs\GitHub\Techporia-main-2024\techporia23-main\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ko...', 0)
+#1 D:\Docs\GitHub\Techporia-main-2024\techporia23-main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ko...')
+#2 D:\Docs\GitHub\Techporia-main-2024\techporia23-main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ko...')
+#3 D:\Docs\GitHub\Techporia-main-2024\techporia23-main\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ko...', NULL, false)
+#4 D:\Docs\GitHub\Techporia-main-2024\techporia23-main\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 D:\Docs\GitHub\Techporia-main-2024\techporia23-main\app\Database\Seeds\KompetisiSeeder.php(21): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 D:\Docs\GitHub\Techporia-main-2024\techporia23-main\vendor\codeigniter4\framework\system\Database\Seeder.php(146): App\Database\Seeds\KompetisiSeeder->run()
+#7 D:\Docs\GitHub\Techporia-main-2024\techporia23-main\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 D:\Docs\GitHub\Techporia-main-2024\techporia23-main\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#9 D:\Docs\GitHub\Techporia-main-2024\techporia23-main\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#10 D:\Docs\GitHub\Techporia-main-2024\techporia23-main\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-07-19 18:47:44 --> mysqli_sql_exception: Duplicate entry '1' for key 'PRIMARY' in D:\Docs\GitHub\Techporia-main-2024\techporia23-main\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Docs\GitHub\Techporia-main-2024\techporia23-main\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ko...', 0)
+#1 D:\Docs\GitHub\Techporia-main-2024\techporia23-main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ko...')
+#2 D:\Docs\GitHub\Techporia-main-2024\techporia23-main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ko...')
+#3 D:\Docs\GitHub\Techporia-main-2024\techporia23-main\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ko...', NULL, false)
+#4 D:\Docs\GitHub\Techporia-main-2024\techporia23-main\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 D:\Docs\GitHub\Techporia-main-2024\techporia23-main\app\Database\Seeds\KompetisiSeeder.php(21): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 D:\Docs\GitHub\Techporia-main-2024\techporia23-main\vendor\codeigniter4\framework\system\Database\Seeder.php(146): App\Database\Seeds\KompetisiSeeder->run()
+#7 D:\Docs\GitHub\Techporia-main-2024\techporia23-main\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 D:\Docs\GitHub\Techporia-main-2024\techporia23-main\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#9 D:\Docs\GitHub\Techporia-main-2024\techporia23-main\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#10 D:\Docs\GitHub\Techporia-main-2024\techporia23-main\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-07-19 18:48:01 --> mysqli_sql_exception: Duplicate entry '1' for key 'PRIMARY' in D:\Docs\GitHub\Techporia-main-2024\techporia23-main\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Docs\GitHub\Techporia-main-2024\techporia23-main\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ko...', 0)
+#1 D:\Docs\GitHub\Techporia-main-2024\techporia23-main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ko...')
+#2 D:\Docs\GitHub\Techporia-main-2024\techporia23-main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ko...')
+#3 D:\Docs\GitHub\Techporia-main-2024\techporia23-main\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ko...', NULL, false)
+#4 D:\Docs\GitHub\Techporia-main-2024\techporia23-main\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 D:\Docs\GitHub\Techporia-main-2024\techporia23-main\app\Database\Seeds\KompetisiSeeder.php(21): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 D:\Docs\GitHub\Techporia-main-2024\techporia23-main\vendor\codeigniter4\framework\system\Database\Seeder.php(146): App\Database\Seeds\KompetisiSeeder->run()
+#7 D:\Docs\GitHub\Techporia-main-2024\techporia23-main\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 D:\Docs\GitHub\Techporia-main-2024\techporia23-main\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#9 D:\Docs\GitHub\Techporia-main-2024\techporia23-main\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#10 D:\Docs\GitHub\Techporia-main-2024\techporia23-main\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-07-19 18:48:11 --> mysqli_sql_exception: Duplicate entry '1' for key 'PRIMARY' in D:\Docs\GitHub\Techporia-main-2024\techporia23-main\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Docs\GitHub\Techporia-main-2024\techporia23-main\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ko...', 0)
+#1 D:\Docs\GitHub\Techporia-main-2024\techporia23-main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ko...')
+#2 D:\Docs\GitHub\Techporia-main-2024\techporia23-main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ko...')
+#3 D:\Docs\GitHub\Techporia-main-2024\techporia23-main\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ko...', NULL, false)
+#4 D:\Docs\GitHub\Techporia-main-2024\techporia23-main\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 D:\Docs\GitHub\Techporia-main-2024\techporia23-main\app\Database\Seeds\KompetisiSeeder.php(21): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 D:\Docs\GitHub\Techporia-main-2024\techporia23-main\vendor\codeigniter4\framework\system\Database\Seeder.php(146): App\Database\Seeds\KompetisiSeeder->run()
+#7 D:\Docs\GitHub\Techporia-main-2024\techporia23-main\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 D:\Docs\GitHub\Techporia-main-2024\techporia23-main\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#9 D:\Docs\GitHub\Techporia-main-2024\techporia23-main\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#10 D:\Docs\GitHub\Techporia-main-2024\techporia23-main\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+CRITICAL - 2024-07-19 18:58:26 --> Undefined variable $fee
+in APPPATH\Controllers\PaymentController.php on line 286.
+ 1 APPPATH\Controllers\PaymentController.php(286): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $fee', 'D:\\Docs\\GitHub\\Techporia-main-2024\\techporia23-main\\app\\Controllers\\PaymentController.php', 286)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PaymentController->lomba('58e53a')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Docs\\GitHub\\Techporia-main-2024\\techporia23-main\\public\\index.php')
+CRITICAL - 2024-07-19 18:58:55 --> Undefined variable $fee
+in APPPATH\Controllers\PaymentController.php on line 286.
+ 1 APPPATH\Controllers\PaymentController.php(286): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $fee', 'D:\\Docs\\GitHub\\Techporia-main-2024\\techporia23-main\\app\\Controllers\\PaymentController.php', 286)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PaymentController->lomba('58e53a')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Docs\\GitHub\\Techporia-main-2024\\techporia23-main\\public\\index.php')
+CRITICAL - 2024-07-19 19:02:12 --> Undefined variable $fee
+in APPPATH\Controllers\PaymentController.php on line 286.
+ 1 APPPATH\Controllers\PaymentController.php(286): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $fee', 'D:\\Docs\\GitHub\\Techporia-main-2024\\techporia23-main\\app\\Controllers\\PaymentController.php', 286)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PaymentController->lomba('58e53a')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Docs\\GitHub\\Techporia-main-2024\\techporia23-main\\public\\index.php')
+CRITICAL - 2024-07-19 19:02:17 --> Undefined variable $fee
+in APPPATH\Controllers\PaymentController.php on line 286.
+ 1 APPPATH\Controllers\PaymentController.php(286): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $fee', 'D:\\Docs\\GitHub\\Techporia-main-2024\\techporia23-main\\app\\Controllers\\PaymentController.php', 286)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PaymentController->lomba('58e53a')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Docs\\GitHub\\Techporia-main-2024\\techporia23-main\\public\\index.php')
+CRITICAL - 2024-07-19 19:03:00 --> Undefined variable $fee
+in APPPATH\Controllers\PaymentController.php on line 286.
+ 1 APPPATH\Controllers\PaymentController.php(286): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $fee', 'D:\\Docs\\GitHub\\Techporia-main-2024\\techporia23-main\\app\\Controllers\\PaymentController.php', 286)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PaymentController->lomba('58e53a')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Docs\\GitHub\\Techporia-main-2024\\techporia23-main\\public\\index.php')
+CRITICAL - 2024-07-19 19:04:05 --> Undefined variable $gross_amount
+in APPPATH\Controllers\PaymentController.php on line 300.
+ 1 APPPATH\Controllers\PaymentController.php(300): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $gross_amount', 'D:\\Docs\\GitHub\\Techporia-main-2024\\techporia23-main\\app\\Controllers\\PaymentController.php', 300)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PaymentController->lomba('58e53a')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Docs\\GitHub\\Techporia-main-2024\\techporia23-main\\public\\index.php')
+ERROR - 2024-07-19 19:06:21 --> Competition name not found or does not match fee structure: {"nama_kompetisi":"Painting"}
+ERROR - 2024-07-19 19:08:46 --> Competition name not found or does not match fee structure: {"nama_kompetisi":"Painting"}
+CRITICAL - 2024-07-19 19:11:23 --> Undefined variable $fee
+in APPPATH\Controllers\PaymentController.php on line 291.
+ 1 APPPATH\Controllers\PaymentController.php(291): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $fee', 'D:\\Docs\\GitHub\\Techporia-main-2024\\techporia23-main\\app\\Controllers\\PaymentController.php', 291)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PaymentController->lomba('e6d3ec')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Docs\\GitHub\\Techporia-main-2024\\techporia23-main\\public\\index.php')
+CRITICAL - 2024-07-19 19:13:28 --> Undefined variable $gross_amount
+in APPPATH\Controllers\PaymentController.php on line 309.
+ 1 APPPATH\Controllers\PaymentController.php(309): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $gross_amount', 'D:\\Docs\\GitHub\\Techporia-main-2024\\techporia23-main\\app\\Controllers\\PaymentController.php', 309)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PaymentController->lomba('e6d3ec')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Docs\\GitHub\\Techporia-main-2024\\techporia23-main\\public\\index.php')
+ERROR - 2024-07-19 19:18:46 --> Competition name not found or does not match fee structure: {"nama_kompetisi":"Lukis"}

@@ -184,6 +184,9 @@ class PaymentController extends BaseController
 
     public function lomba($id)
     {
+        $fee = 75000; // Default fee if no competition is matched
+        $gross_amount = $fee + 4440; // Default gross amount
+
         $anggotaTimModel = new AnggotaTimModel();
         $check = $anggotaTimModel->where('anggota', auth()->user()->username)
             ->where('tim_id', $id)->first();
@@ -210,18 +213,36 @@ class PaymentController extends BaseController
         $transaction = $transactionsModel->where('order_id', $dataTim['order_id'])->first();
 
         if (!$transaction) {
+            $kompetisiFees = [
+                'Competitive Programming' => 750000,
+                'Web Development' => 75000,
+                'UI/UX Design' => 75000,
+                'Networking Competition' => 75000,
+                'Business Plan' => 75000,
+                'Lukis' => 50000, 
+                'Tari' => 80000,  
+                'Band' => 150000  
+            ];
+
+            if ($kompetisi && array_key_exists($kompetisi['nama_kompetisi'], $kompetisiFees)) {
+                $fee = $kompetisiFees[$kompetisi['nama_kompetisi']];
+            } else {
+                log_message('error', 'Competition name not found or does not match fee structure: ' . json_encode($kompetisi));
+            }
+
+            $gross_amount = $fee + 4440; // Update gross amount based on the fee
 
             $transactionData = [
                 'transaction_details' => [
                     'order_id' => $dataTim['order_id'],
-                    'gross_amount' => 79440,
+                    'gross_amount' => $gross_amount,
                 ],
                 'item_details' => [
                     array(
                         'id' => $dataTim['tim_id'],
-                        'price' => 75000,
+                        'price' => $fee,
                         'quantity' => 1,
-                        'name' => 'Biaya Pendaftaran Lomba ' . $kompetisi['nama_kompetisi'],
+                        'name' => 'Biaya Pendaftaran Lomba ' . ($kompetisi['nama_kompetisi'] ?? 'Unknown'),
                     ),
                     array(
                         'id' => 'ADMIN',
@@ -242,7 +263,7 @@ class PaymentController extends BaseController
 
             $transactionsModel->insert([
                 'order_id' => $dataTim['order_id'],
-                'gross_amount' => 79440,
+                'gross_amount' => $gross_amount,
                 'snap_token' => $snapToken,
                 'transaction_time' => date('Y-m-d H:i:s'),
                 'expiry_time' => date('Y-m-d H:i:s', strtotime('+1 days')),
@@ -269,10 +290,10 @@ class PaymentController extends BaseController
 
         $item = [
             array(
-                'nama' => 'Biaya Pendaftaran Lomba ' . $kompetisi['nama_kompetisi'],
-                'harga' => 'Rp. 75.000',
+                'nama' => 'Biaya Pendaftaran Lomba ' . ($kompetisi['nama_kompetisi'] ?? 'Unknown'),
+                'harga' => 'Rp. ' . number_format($fee, 0, ',', '.'),
                 'jumlah' => 1,
-                'total' => 'Rp. 75.000',
+                'total' => 'Rp. ' . number_format($fee, 0, ',', '.'),
             ),
             array(
                 'nama' => 'Biaya Transaksi',
@@ -284,7 +305,7 @@ class PaymentController extends BaseController
                 'nama' => 'Total',
                 'harga' => '',
                 'jumlah' => 2,
-                'total' => 'Rp. 79.440',
+                'total' => 'Rp. ' . number_format($gross_amount, 0, ',', '.'),
             ),
         ];
 
