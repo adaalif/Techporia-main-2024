@@ -67,7 +67,7 @@
 						<div>
 							<ul class="uk-navbar-nav">
 								<li><a href="<?= base_url('') ?>">Beranda</a></li>
-								<li class="disnone">
+								<!-- <li class="disnone">
 									<a href="#">Kompetisi</a>
 									<div class="uk-navbar-dropdown">
 										<ul class="uk-nav uk-navbar-dropdown-nav">
@@ -81,11 +81,11 @@
 											<li><a href="<?= site_url('kompetisi/ui-ux') ?>">UI/UX Design</a></li>
 										</ul>
 									</div>
-								</li>
+								</li> -->
 							</ul>
 						</div>
 					</div>
-					<a class="uk-navbar-item uk-logo" href=""><img src="<?= base_url('favicon.png') ?>"
+					<a class="uk-navbar-item uk-logo" href=""><img src="<?= base_url('favicon2.png') ?>"
 							style="height: 30px;width: 30px;" alt=""></a>
 					<div class="uk-navbar-center-right">
 						<div>
@@ -101,7 +101,7 @@
 										</ul>
 									</div>
 								</li>
-								<li class="disnone"><a href="<?= site_url('register') ?>">Daftar</a></li>
+								<!-- <li class="disnone"><a href="<?= site_url('register') ?>">Daftar</a></li> -->
 							</ul>
 						</div>
 					</div>
