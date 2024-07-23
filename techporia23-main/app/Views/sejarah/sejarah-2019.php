@@ -1,4 +1,4 @@
-<?= $this->extend('sejarah/layout'); ?>
+<?= $this->extend('sejarah/layout-kilasbalik'); ?>
 
 <?= $this->section('content'); ?>
 

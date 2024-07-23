@@ -1,9 +1,9 @@
-<?= $this->extend('sejarah/layout'); ?>
+<?= $this->extend('sejarah/layout-kilasbalik'); ?>
 
 <?= $this->section('content'); ?>
 
 <div style="width: 100vw">
-	<div class="bg-fillwhite-auto" style="padding: 0; color: white; width: 100vw">
+	<div class="bg-fillwhite-auto" style="padding: 0; color: white; background-color: var(--black); width: 100vw">
 		<div class="page-margin">
 			<div id="sejarah-header"
 				style="background-image: url(<?= base_url('assets-old/images/background2.jpeg') ?>)">
@@ -17,7 +17,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="section-140"></div>
+	<div class="section-140" style="background-color: var(--black);"></div>
 	<div id="logo-bar" style="color: black;">
 		<div class="page-margin">
 			<div class="uk-grid-collapse" uk-grid>
@@ -71,9 +71,9 @@
 					</div>
 				</div>
 				<div class="uk-width-1-3@m">
-					<div id="info-right">
+					<div id="info-right" style="background-color: var(--black); color: white">
 						<div class="Smallmont"
-							style="font-weight: 700; font-size: 20px;line-height: 1.7; margin-bottom: 30px; text-align: center; color: gray">
+							style="font-weight: 700; font-size: 20px;line-height: 1.7; margin-bottom: 30px; text-align: center; color: white">
 							Penyelenggaraan <br>Techphoria 2015
 						</div>
 						<div class="Smallmont" id="hayongapain">
@@ -92,7 +92,7 @@
 		</div>
 	</div>
 
-	<div id="highlights">
+	<div id="highlights" style="background-color: var(--black); color: white">
 		<div class="Mediummont" style="text-align: center;font-weight: 700; font-size: 30px;padding-top: 100px">
 			Techphoria 2015 Highlights
 		</div>
