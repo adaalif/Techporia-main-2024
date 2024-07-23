@@ -30,7 +30,8 @@ $routes->set404Override();
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'MainController::index');
-$routes->get('bazar/(:segment)', 'MainController::bazar/$1');$route['bazar/(:any)'] = 'MainController/$1';
+$routes->get('kompetisi/(:segment)', 'MainController::kompetisi/$1');
+
 $routes->get('seminar', 'MainController::seminar');
 $routes->get('seminar/daftar', 'MainController::daftarSeminar');
 $routes->get('seminar/tiket', 'SeminarController::tiket');
