@@ -1,9 +1,9 @@
-<?= $this->extend('sejarah/layout-kilasbalik'); ?>
+<?= $this->extend('sejarah/layout'); ?>
 
 <?= $this->section('content'); ?>
 
 <div style="width: 100vw">
-	<div class="bg-fillwhite-auto" style="padding: 0; color: white; background-color: var(--black); width: 100vw">
+	<div class="bg-fillwhite-auto" style="padding: 0; color: white; width: 100vw">
 		<div class="page-margin">
 			<div id="sejarah-header"
 				style="background-image: url(<?= base_url('assets-old/images/background2.jpeg') ?>)">
@@ -17,8 +17,8 @@
 			</div>
 		</div>
 	</div>
-	<div class="section-140" style="background-color: var(--black);"></div>
-	<div id="highlights" style="background-color: var(--black); color:white">
+	<div class="section-140"></div>
+	<div id="highlights">
 		<div class="Mediummont" style="text-align: center; font-weight: 700; background-color: var(--black); font-size: 30px;padding-top: 100px">
 			Techphoria 2014 Highlights
 		</div>
