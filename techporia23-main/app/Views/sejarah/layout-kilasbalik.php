@@ -51,16 +51,16 @@
 </head>
 
 <body>
-	<div id="box-logo">
+	<div id="box-logo" style="background-color: #0a0c23; color: white">
 		<img id="logo-entrance" src="<?= base_url() ?>assets-old/images/logos/<?= $tahun; ?>.png" alt="">
 		<div class="Smallmont"
-			style="text-align: center; font-size: 20px; font-weight: 700; color: #472639; margin-top: 30px">TECHPHORIA
+			style="text-align: center; font-size: 20px; font-weight: 700; color: white; margin-top: 30px">TECHPHORIA
 			<br>20<?= $tahun ?>
 		</div>
 	</div>
-	<div style="width: 100vw; backgorund-color: var(--black);">
+	<div style="width: 100vw;">
 		<div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky;">
-			<nav class="uk-navbar-container" style="position: relative; z-index: 99;font-weight: 700" uk-navbar>
+			<nav class="uk-navbar-container" style="position: relative; z-index: 99;font-weight: 700; color: white" uk-navbar>
 				<div class="uk-navbar-center">
 
 					<div class="uk-navbar-center-left">

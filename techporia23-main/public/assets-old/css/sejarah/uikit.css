@@ -3869,7 +3869,7 @@ ul.uk-nav-sub {
 /* Container
  ========================================================================== */
 .uk-navbar-container:not(.uk-navbar-transparent) {
-  background: #f8f8f8;
+  background: #02031d;
 }
 /*
  * Remove pseudo elements created by micro clearfix as precaution (if Container component is used)
@@ -3990,7 +3990,7 @@ ul.uk-nav-sub {
  * Nav items
  */
 .uk-navbar-nav > li > a {
-  color: #999;
+  color: white;
   text-transform: uppercase;
   transition: 0.1s ease-in-out;
   transition-property: color, background-color;
@@ -4011,7 +4011,7 @@ ul.uk-nav-sub {
 }
 /* Active */
 .uk-navbar-nav > li.uk-active > a {
-  color: #333;
+  color: white;
 }
 /* Item
  ========================================================================== */
@@ -4062,8 +4062,8 @@ ul.uk-nav-sub {
   width: 200px;
   /* 4 */
   padding: 25px;
-  background: #fff;
-  color: #666;
+  background: #02031d;
+  color: white;
   box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);
 }
 /* Show */
@@ -4138,7 +4138,7 @@ ul.uk-nav-sub {
  * Items
  */
 .uk-navbar-dropdown-nav > li > a {
-  color: #999;
+  color: white;
 }
 /* Hover + Focus */
 .uk-navbar-dropdown-nav > li > a:hover,
