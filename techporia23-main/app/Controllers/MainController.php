@@ -106,4 +106,24 @@ class MainController extends BaseController
             throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
         }
     }
+
+    public function bazar($category)
+    {
+        if (!auth()->loggedIn()) {
+            return redirect()->to('login');
+        }
+        
+
+        // Validate the category
+        $validCategories = ['Musik', 'Lukis', 'Tari'];
+        if (!in_array($category, $validCategories)) {
+            throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
+        }
+
+        // Load data based on category, for example from a model
+
+        // Return the view with the items
+        return view('bazar/' . strtolower($category), [
+        ]);
+    }
 }

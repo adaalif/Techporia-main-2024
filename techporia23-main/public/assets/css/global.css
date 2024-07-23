@@ -347,7 +347,7 @@ footer .footer-detail {
 
 .footer-detail > .item img {
     aspect-ratio: 1;
-    width: 75%;
+    width: 50%;
     object-fit: contain;
 }
 
@@ -1457,7 +1457,7 @@ textarea {
 }
 
 .about img {
-    width: 20vw;
+    width: 23vw;
 }
 @media (max-width: 960px) {
     .about img {
@@ -1481,6 +1481,7 @@ textarea {
 .about-detail p {
     text-align: justify;
     color: var(--text-dark);
+    font-size: 20px;
 }
 
 #competition {
