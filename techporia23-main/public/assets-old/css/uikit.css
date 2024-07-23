@@ -3990,7 +3990,7 @@ ul.uk-nav-sub {
  * Nav items
  */
 .uk-navbar-nav > li > a {
-  color: #999;
+  color: #fff;
   text-transform: uppercase;
   transition: 0.1s ease-in-out;
   transition-property: color, background-color;
@@ -4011,7 +4011,7 @@ ul.uk-nav-sub {
 }
 /* Active */
 .uk-navbar-nav > li.uk-active > a {
-  color: #333;
+  color: #fff;
 }
 /* Item
  ========================================================================== */

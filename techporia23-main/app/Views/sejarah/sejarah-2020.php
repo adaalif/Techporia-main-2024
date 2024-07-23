@@ -18,7 +18,7 @@
 		</div>
 	</div>
 	<div class="section-140"></div>
-	<div id="logo-bar" style="color: black;">
+	<div id="logo-bar" style="color: white;">
 		<div class="page-margin">
 			<div class="uk-grid-collapse" uk-grid>
 				<div class="uk-width-expand@m">
@@ -73,7 +73,7 @@
 				<div class="uk-width-1-3@m">
 					<div id="info-right">
 						<div class="Smallmont"
-							style="font-weight: 700; font-size: 20px;line-height: 1.7; margin-bottom: 30px; text-align: center; color: gray">
+							style="font-weight: 700; font-size: 20px;line-height: 1.7; margin-bottom: 30px; text-align: center; color: white">
 							Penyelenggaraan <br>Techphoria 2020
 						</div>
 						<div class="Smallmont" id="hayongapain">

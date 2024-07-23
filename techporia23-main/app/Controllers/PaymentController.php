@@ -136,6 +136,7 @@ class PaymentController extends BaseController
                 'jumlah' => 1,
                 'total' => 'Rp. ' . number_format(($transaction['gross_amount'] - 4440), 0, ',', '.'),
             ),
+            
             array(
                 'nama' => 'Biaya Transaksi',
                 'harga' => 'Rp. 4.440',
@@ -184,6 +185,9 @@ class PaymentController extends BaseController
 
     public function lomba($id)
     {
+        $fee = 75000; // Example fee
+        $gross_amount = $fee + 4440;
+
         $anggotaTimModel = new AnggotaTimModel();
         $check = $anggotaTimModel->where('anggota', auth()->user()->username)
             ->where('tim_id', $id)->first();
@@ -205,23 +209,47 @@ class PaymentController extends BaseController
 
         $kompetisiModel = new KompetisiModel();
         $kompetisi = $kompetisiModel->select('nama_kompetisi')->where('id_kompetisi', $dataTim['id_kompetisi'])->first();
+        $kompetisiFees = [
+            'Competitive Programming' => 75000,
+            'Web Development' => 75000,
+            'UI/UX Design' => 75000,
+            'Networking Competition' => 75000,
+            'Business Plan' => 75000,
+            'Lukis' => 50000, 
+            'Tari' => 80000,  
+            'Band' => 150000  
+        ];
+        if ($kompetisi && array_key_exists($kompetisi['nama_kompetisi'], $kompetisiFees)) {
+            $fee = $kompetisiFees[$kompetisi['nama_kompetisi']];
+        } else {
+            log_message('error', 'Competition name not found or does not match fee structure: ' . json_encode($kompetisi));
+        }
 
+        $gross_amount = $fee + 4440; // Update gross amount based on the fee
         $transactionsModel = new TransactionsModel();
         $transaction = $transactionsModel->where('order_id', $dataTim['order_id'])->first();
 
         if (!$transaction) {
 
+            if ($kompetisi && array_key_exists($kompetisi['nama_kompetisi'], $kompetisiFees)) {
+                $fee = $kompetisiFees[$kompetisi['nama_kompetisi']];
+            } else {
+                log_message('error', 'Competition name not found or does not match fee structure: ' . json_encode($kompetisi));
+            }
+
+            $gross_amount = $fee + 4440; // Update gross amount based on the fee
+
             $transactionData = [
                 'transaction_details' => [
                     'order_id' => $dataTim['order_id'],
-                    'gross_amount' => 79440,
+                    'gross_amount' => $gross_amount,
                 ],
                 'item_details' => [
                     array(
                         'id' => $dataTim['tim_id'],
-                        'price' => 75000,
+                        'price' => $fee,
                         'quantity' => 1,
-                        'name' => 'Biaya Pendaftaran Lomba ' . $kompetisi['nama_kompetisi'],
+                        'name' => 'Biaya Pendaftaran Lomba ' . ($kompetisi['nama_kompetisi'] ?? 'Unknown'),
                     ),
                     array(
                         'id' => 'ADMIN',
@@ -242,7 +270,7 @@ class PaymentController extends BaseController
 
             $transactionsModel->insert([
                 'order_id' => $dataTim['order_id'],
-                'gross_amount' => 79440,
+                'gross_amount' => $gross_amount,
                 'snap_token' => $snapToken,
                 'transaction_time' => date('Y-m-d H:i:s'),
                 'expiry_time' => date('Y-m-d H:i:s', strtotime('+1 days')),
@@ -266,27 +294,30 @@ class PaymentController extends BaseController
             'email' => auth()->getUser()->getEmail(),
             'instansi' => $user['universitas'],
         ];
-
+        
         $item = [
-            array(
-                'nama' => 'Biaya Pendaftaran Lomba ' . $kompetisi['nama_kompetisi'],
-                'harga' => 'Rp. 75.000',
+            [
+                'nama' => 'Biaya Pendaftaran Lomba ' . ($kompetisi['nama_kompetisi'] ?? 'Unknown'),
+                'harga' => 'Rp. ' . number_format($fee, 0, ',', '.'),
                 'jumlah' => 1,
-                'total' => 'Rp. 75.000',
-            ),
-            array(
+                'total' => 'Rp. ' . number_format($fee, 0, ',', '.'),
+            ],
+            [
                 'nama' => 'Biaya Transaksi',
                 'harga' => 'Rp. 4.440',
                 'jumlah' => 1,
                 'total' => 'Rp. 4.440'
-            ),
-            array(
+            ],
+            [
                 'nama' => 'Total',
                 'harga' => '',
                 'jumlah' => 2,
-                'total' => 'Rp. 79.440',
-            ),
+                'total' => 'Rp. ' . number_format($gross_amount, 0, ',', '.'),
+            ],
         ];
+
+        // Debugging right before passing to view
+        log_message('debug', 'Final item array: ' . print_r($item, true));
 
         return view('confirm-payment', [
             'data' => $data,

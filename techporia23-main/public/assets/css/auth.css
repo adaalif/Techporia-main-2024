@@ -1,13 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700;800;900&display=swap");
 
 :root {
-  --main-color: #68a504;
-  --black: #141414;
-  --text: #cdcdcd;
-  --text-dark: #9a9a9a;
-  --gray: #181818;
-  --red: #942a2a;
+    --main-color: #EC00F0;
+    --secondary-color: #54004F;
+    --tertiary-color: #270321;
+    --accent-color: #ADFDFB;
+    --black: #000024;
+    --text: hsl(220, 100%, 97%);
+    --text-dark: hsl(220, 100%, 97%);
+    --gray: #3f3f3f;
+    --content: #242424;
+    --content-light: #3b3b3b;
+    --danger: #942a2a;
+    --section: #000024;
+    --shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+        rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    --neon-border-color: #54EFEA;
+    --neon-glow-color: #EC00F0;
 }
+
 
 @font-face {
   font-family: "Zaptron";
@@ -114,16 +125,16 @@ a {
 }
 
 .auth-section > form > button {
-  margin-top: 3rem;
-  width: 100%;
-  background-color: var(--main-color);
-  color: var(--text);
-  font-weight: 700;
-  font-size: clamp(14px, 1.2vw, 1.2rem);
-  border: none;
-  padding: 1rem 0;
-  border-radius: 0.5rem;
-  cursor: pointer;
+  background: linear-gradient(to right bottom, var(--main-color), var(--secondary-color));
+  font-weight: 500;
+  font-size: 1.05rem;
+  border-radius: 5px;
+  padding: 0.8rem 2rem;
+  transition: all 0.2s ease;
+  &:hover {
+      background: linear-gradient(to right bottom, var(--secondary-color), var(--tertiary-color));
+  }
+
 }
 
 .auth-section > p {
@@ -145,7 +156,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: var(--gray);
+  background: linear-gradient(to right bottom, var(--main-color), var(--secondary-color));
   height: 100%;
 }
 
@@ -167,3 +178,4 @@ a {
     width: 100%;
   }
 }
+
