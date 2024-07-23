@@ -7,7 +7,7 @@
 		<div class="page-margin">
 			<div id="sejarah-header"
 				style="background-image: url(<?= base_url('assets-old/images/background2.jpeg') ?>)">
-				<div id="tittle-anim1" style="padding-top: 100px" class="Smallmont" style=""><span><span
+				<div id="tittle-anim1" class="Smallmont" style=""><span><span
 							style="display:block; margin-bottom: 10px;font-size: 30px;">SEJARAH</span>Technology
 						Euphoria 2018</span></div>
 				<div id="tittle-anim2" class="Smallmont" style="">Technology Euphoria 2018 memiliki tema "Pemberdayaan
