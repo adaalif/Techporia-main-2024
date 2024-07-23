@@ -8,6 +8,7 @@
     </title>
     <link rel="shortcut icon" type="image/png" href="/favicon.ico" />
     <link rel="stylesheet" href="/assets/css/global.css" />
+    <link rel="stylesheet" href="/assets-old/css/style-sejarah.css" />
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.27/dist/sweetalert2.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
