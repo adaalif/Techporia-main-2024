@@ -97,7 +97,7 @@
 
 		<div class="pomar">
 			<div class="owl-carousel owl-theme">
-				<?php for ($i = 1; $i < 7; $i++) { ?>
+				<?php for ($i = 1; $i < 8; $i++) { ?>
 					<div class="item"> <img src="<?= base_url('assets-old/sejarah-image/techpho23-' . $i . '.jpg') ?>"
 							style="width: 270px" class="highlight-foto" alt=""></div>
 				<?php } ?>
