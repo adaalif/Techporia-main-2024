@@ -54,7 +54,7 @@
                             </li>
                             <li>
                                 <a class="nav-data-link"
-                                href="<?= base_url('bazar/Lukis'); ?>">Lukis</a>
+                                href="<?= base_url('kompetisi/Lukis'); ?>">Lukis</a>
                             </li>
                             <li>
                                 <a class="nav-data-link"
