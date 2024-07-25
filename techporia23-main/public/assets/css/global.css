@@ -1445,7 +1445,7 @@ textarea {
 .about {
     display: flex;
     align-items: center;
-    padding: 10vh 15vw;
+    padding: 15vh 15vw;
     width: 100%;
     gap: 3rem;
 }
@@ -1461,7 +1461,7 @@ textarea {
 }
 @media (max-width: 960px) {
     .about img {
-        width: 40vw;
+        width: 60vw;
     }
 }
 
@@ -1472,7 +1472,7 @@ textarea {
 }
 
 .about-detail h1 {
-    font-size: clamp(15px, 3.5vw, 2.8rem);
+    font-size: clamp(15px, 3.5vw, 2rem);
     font-weight: 700;
     font-family: "Technonomicon";
     text-align: center;
@@ -1481,7 +1481,7 @@ textarea {
 .about-detail p {
     text-align: justify;
     color: var(--text-dark);
-    font-size: 20px;
+    font-size: 18px;
 }
 
 #competition {

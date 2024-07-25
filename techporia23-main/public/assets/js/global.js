@@ -102,7 +102,7 @@ const animateOnScrollRight = document.querySelectorAll(".onscroll-r");
 animateOnScrollRight.forEach((el) => observer.observe(el));
 
 // typing animation on theme
-const themeText = '"Expressing, Educating, and Inspiring Change through Digital Creative in the Era of 5.0"';
+const themeText = '"BOOST (Building Outstanding Opportunities through Smart Technology)"';
 const themeContainer = document.getElementById("theme-text");
 
 let indexChar = 0;

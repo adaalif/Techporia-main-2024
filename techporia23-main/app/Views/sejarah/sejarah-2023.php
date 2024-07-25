@@ -7,7 +7,7 @@
 		<div class="page-margin">
 			<div id="sejarah-header"
 				style="background-image: url(<?= base_url('assets-old/images/background2.jpeg') ?>)">
-				<div id="tittle-anim1" style="padding-top: 100px" class="Smallmont" style=""><span><span
+				<div id="tittle-anim1" class="Smallmont" style=""><span><span
 							style="display:block; margin-bottom: 10px;font-size: 30px;">SEJARAH</span>Technology
 						Euphoria 2023</span></div>
 				<div id="tittle-anim2" class="Smallmont" style="">Technology Euphoria 2023 memiliki tema "Expressing, Educating, and Inspiring Change through Digital Creative in the Era of 5.0".
@@ -97,7 +97,7 @@
 
 		<div class="pomar">
 			<div class="owl-carousel owl-theme">
-				<?php for ($i = 1; $i < 7; $i++) { ?>
+				<?php for ($i = 1; $i < 8; $i++) { ?>
 					<div class="item"> <img src="<?= base_url('assets-old/sejarah-image/techpho23-' . $i . '.jpg') ?>"
 							style="width: 270px" class="highlight-foto" alt=""></div>
 				<?php } ?>
