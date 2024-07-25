@@ -25,7 +25,7 @@
             <img src="<?php echo base_url('assets/images/MASKOT 2.png') ?>" alt="maskot" class="onscroll-r"
                 style="--delay: 0;" />
             <div class="about-detail onscroll-r" style="--delay: 1;">
-                <h1>About <br>Technology Euphoria</h1>
+                <h1>About <br> Technology Euphoria</h1>
                 <p>
                     Techphoria merupakan serangkaian acara IT tahunan dengan fokus utama kompetisi yang diperuntukan
                     bagi Universitas/Politeknik
