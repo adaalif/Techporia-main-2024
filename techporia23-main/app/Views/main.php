@@ -10,8 +10,8 @@
         <div class="hero-bg">
         </div>
         <div class="hero onscroll">
-            <h3>Keluarga Mahasiswa FASILKOM UNSRI</h3>
-            <h1>Technology Euphoria</h1>
+            <h3>FASILKOM UNSRI</h3>
+            <h1>Technology Euphoria 2024</h1>
             <div id="theme-text"></div>
             <div class="container-5" style="margin-top: 3rem;">
                 <a href="<?= base_url('#about'); ?>" class="btn btn-fancy">EXPLORE</a>
@@ -25,7 +25,7 @@
             <img src="<?php echo base_url('assets/images/MASKOT 2.png') ?>" alt="maskot" class="onscroll-r"
                 style="--delay: 0;" />
             <div class="about-detail onscroll-r" style="--delay: 1;">
-                <h1>About <br>Technology Euphoria</h1>
+                <h1>About <br> Technology Euphoria</h1>
                 <p>
                     Techphoria merupakan serangkaian acara IT tahunan dengan fokus utama kompetisi yang diperuntukan
                     bagi Universitas/Politeknik

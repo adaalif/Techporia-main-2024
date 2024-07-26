@@ -38,6 +38,6 @@
         </div>
     </div>
     <div class="footer-copyright">
-        <p>© 2023 Technology Euphoria. All rights reserved.</p>
+        <p>© 2024 Technology Euphoria. All rights reserved.</p>
     </div>
 </footer>

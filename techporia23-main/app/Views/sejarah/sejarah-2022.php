@@ -7,17 +7,16 @@
 		<div class="page-margin">
 			<div id="sejarah-header"
 				style="background-image: url(<?= base_url('assets-old/images/background2.jpeg') ?>)">
-				<div id="tittle-anim1" style="padding-top: 100px" class="Smallmont" style=""><span><span
+				<div id="tittle-anim1" class="Smallmont" style=""><span><span
 							style="display:block; margin-bottom: 10px;font-size: 30px;">SEJARAH</span>Technology
 						Euphoria 2022</span></div>
 				<div id="tittle-anim2" class="Smallmont" style="">Technology Euphoria 2022 memiliki tema "By Digital Creative Express Yourself and Achieve Accomplishments".
 				</div>
-
 			</div>
 		</div>
 	</div>
 	<div class="section-140"></div>
-	<div id="logo-bar" style="color: black;">
+	<div id="logo-bar" style="color: white;">
 		<div class="page-margin">
 			<div class="uk-grid-collapse" uk-grid>
 				<div class="uk-width-expand@m">
@@ -72,7 +71,7 @@
 				<div class="uk-width-1-3@m">
 					<div id="info-right">
 						<div class="Smallmont"
-							style="font-weight: 700; font-size: 20px;line-height: 1.7; margin-bottom: 30px; text-align: center; color: gray">
+							style="font-weight: 700; font-size: 20px;line-height: 1.7; margin-bottom: 30px; text-align: center; color: white">
 							Penyelenggaraan <br>Techphoria 2022
 						</div>
 						<div class="Smallmont" id="hayongapain">
@@ -81,7 +80,7 @@
 							kesadaran tentang peranan IT serta meningkatkan nilai keilmuan dan komprehensif di bidang
 							ilmu teknologi informasi komputer, ajang ini sendiri diprakarsai oleh Mahasiswa Fakultas
 							Ilmu Komputer Universitas Sriwijaya.
-							<span style="display: block;margin-top: 15px">Technology Euphoria 2019 memiliki event khusus
+							<span style="display: block;margin-top: 15px">Technology Euphoria 2022 memiliki event khusus
 								yaitu Fexo dan Seminar</span>
 						</div>
 
@@ -117,11 +116,11 @@
 						<tbody>
 							<tr>
 								<td>1</td>
-								<td>Institut Teknologi Bandung</td>
+								<td>Universitas Indonesia</td>
 							</tr>
 							<tr>
 								<td>2</td>
-								<td>Universitas Indonesia</td>
+								<td>Institut Teknologi Bandung</td>
 							</tr>
 							<tr>
 								<td>3</td>
@@ -129,240 +128,67 @@
 							</tr>
 							<tr>
 								<td>4</td>
-								<td>Institut Teknologi Sepuluh Nopember</td>
-							</tr>
-							<tr>
-								<td>5</td>
-								<td>Universitas Gadjah Mada</td>
-							</tr>
-							<tr>
-								<td>6</td>
-								<td>Universitas Sebelas Maret</td>
-							</tr>
-							<tr>
-								<td>7</td>
 								<td>Universitas Brawijaya</td>
 							</tr>
 							<tr>
+								<td>5</td>
+								<td>Universitas Bina Nusantara</td>
+							</tr>
+							<tr style="border-bottom: solid 1px white">
+								<td>6</td>
+								<td>Universitas Sriwijaya</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="uk-width-1-3@m">
+					<table class="uk-table uk-table-small uk-table-divider">
+						<tbody>
+						<tr>
+								<td>7</td>
+								<td>Universitas Sebelas Maret</td>
+							</tr>
+							<tr>
 								<td>8</td>
-								<td>Universitas Hassanudin</td>
+								<td>UPN Veteran Jawa Timur</td>
 							</tr>
 							<tr>
 								<td>9</td>
-								<td>Universitas Diponegoro</td>
+								<td>Universitas Mulawi</td>
 							</tr>
 							<tr>
 								<td>10</td>
-								<td>Universitas Negeri Jakarta</td>
+								<td>Universitas Negeri Surabaya</td>
 							</tr>
 							<tr>
 								<td>11</td>
-								<td>Universitas Andalas</td>
+								<td>Universitas Negeri Yogyakarta</td>
 							</tr>
-							<tr>
-								<td>12</td>
-								<td>Universitas Sumatera Utara</td>
-							</tr>
-							<tr>
-								<td>13</td>
-								<td>Telkom University</td>
-							</tr>
-							<tr>
-								<td>14</td>
-								<td>Univesitas Negeri Gorontalo</td>
-							</tr>
-							<tr>
-								<td>15</td>
-								<td>Universitas Islam Indonesia</td>
-							</tr>
-							<tr>
-								<td>16</td>
-								<td>Institut Teknologi Sumatera</td>
-							</tr>
-							<tr>
-								<td>17</td>
-								<td>Universitas Tarumanegara</td>
-							</tr>
-							<tr>
-								<td>18</td>
-								<td>Binus University</td>
-							</tr>
-							<tr>
-								<td>19</td>
-								<td>UIN Maulana Malik Ibrahim Malang </td>
 							<tr style="border-bottom: solid 1px white">
-								<td>20</td>
-								<td>Universitas Gunadarma</td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
-				<div class="uk-width-1-3@m">
-					<table class="uk-table uk-table-small uk-table-divider">
-						<tbody>
-							<tr>
-								<td>21</td>
-								<td>UPN Veteran Yogyakarta</td>
-							</tr>
-							<tr>
-								<td>22</td>
-								<td>Universitas Multimedia Nusantara</td>
-							</tr>
-							<tr>
-								<td>23</td>
-								<td>Universitas Muslim Indonesia</td>
-							</tr>
-							<tr>
-								<td>24</td>
-								<td>Politeknik Negeri Sriwijaya</td>
-							</tr>
-							<tr>
-								<td>25</td>
-								<td>Politeknik Gorontalo</td>
-							</tr>
-							<tr>
-								<td>26</td>
-								<td>Universitas Riau</td>
-							</tr>
-							<tr>
-								<td>27</td>
-								<td>President University</td>
-							</tr>
-							<tr>
-								<td>28</td>
-								<td>Universitas Muhammadiyah Riau</td>
-							</tr>
-							<tr>
-								<td>29</td>
-								<td>Sekolah Tinggi Teknik PLN</td>
-							</tr>
-							<tr>
-								<td>30</td>
-								<td>STTK Binus Bandung</td>
-							</tr>
-							<tr>
-								<td>31</td>
+								<td>12</td>
 								<td>Universitas Teknokrat Indonesia</td>
 							</tr>
-							<tr>
-								<td>32</td>
-								<td>Politeknik Caltex Riau</td>
-							</tr>
-							<tr>
-								<td>33</td>
-								<td>Institut Teknologi Del</td>
-							</tr>
-							<tr>
-								<td>34</td>
-								<td>Universitas Pembangunan PancaBudi</td>
-							</tr>
-							<tr>
-								<td>35</td>
-								<td>Universitas Amikom Yogyakarta</td>
-							</tr>
-							<tr>
-								<td>36</td>
-								<td>Institut Teknologi Telkom Purwokerto</td>
-							</tr>
-							<tr>
-								<td>37</td>
-								<td>Universitas Samudra</td>
-							</tr>
-							<tr>
-								<td>38</td>
-								<td>Universitas Muhammadiyah Surakarta</td>
-							</tr>
-							<tr>
-								<td>39</td>
-								<td>Universitas Pendidikan Indonesia</td>
-							<tr style="border-bottom: solid 1px white">
-								<td>40</td>
-								<td>STIKOM Bali</td>
-							</tr>
 						</tbody>
 					</table>
 				</div>
 				<div class="uk-width-1-3@m">
 					<table class="uk-table uk-table-small uk-table-divider">
 						<tbody>
-							<tr>
-								<td>41</td>
-								<td>Institut Bisnis dan Informatika Surabaya</td>
-							</tr>
-							<tr>
-								<td>42</td>
-								<td>Universitas Bhayangkara Jakarta Raya</td>
-							</tr>
-							<tr>
-								<td>43</td>
-								<td>Universitas Satya Wacana Salatiga</td>
-							</tr>
-							<tr>
-								<td>44</td>
-								<td>Politeknik Negeri Bengkalis</td>
-							</tr>
-							<tr>
-								<td>45</td>
+						<tr>
+								<td>13</td>
 								<td>Universitas Bina Darma</td>
 							</tr>
 							<tr>
-								<td>46</td>
-								<td>Universitas Indraprasta PGRI</td>
+								<td>14</td>
+								<td>Politeknik Elektronika Negeri Surabaya</td>
 							</tr>
 							<tr>
-								<td>47</td>
-								<td>Universitas Sriwijaya</td>
+								<td>15</td>
+								<td>Politeknik Siber dan Sandi Negara</td>
 							</tr>
-							<tr>
-								<td>48</td>
-								<td>Politeknik Meta Industri</td>
-							</tr>
-							<tr>
-								<td>49</td>
-								<td>STMIK Ichsan Gorontalo</td>
-							</tr>
-							<tr>
-								<td>50</td>
-								<td>STMIK-STIE Mikroskil</td>
-							</tr>
-							<tr>
-								<td>51</td>
-								<td>STMIK MDP</td>
-							</tr>
-							<tr>
-								<td>52</td>
-								<td>STMIK Diponegoro Makasar</td>
-							</tr>
-							<tr>
-								<td>53</td>
-								<td>SMK Telkom Purwokerto</td>
-							</tr>
-							<tr>
-								<td>54</td>
-								<td>SMK 1 Kota Bengkulu</td>
-							</tr>
-							<tr>
-								<td>55</td>
-								<td>SMAN 1 Jati Agung</td>
-							</tr>
-							<tr>
-								<td>56</td>
-								<td>STIMED Nusa Palapa</td>
-							</tr>
-							<tr>
-								<td>57</td>
-								<td>SMAN 4 Bekasi</td>
-							</tr>
-							<tr>
-								<td>58</td>
-								<td>SMK Muhammadiyah Palembang</td>
-							</tr>
-							<tr>
-								<td>59</td>
-								<td>UIN Raden Fatah Palembang</td>
 							<tr style="border-bottom: solid 1px white">
-								<td>60</td>
-								<td>SMAN 4 Bekasi</td>
+								<td>16</td>
+								<td>SMA Insan Cendekia Al Kausar</td>
 							</tr>
 						</tbody>
 					</table>
@@ -374,7 +200,7 @@
 		style="background-image: url(<?= base_url('assets-old/images/background2.jpeg') ?>); color: white;background-repeat:no-repeat;background-size:cover;">
 		<div class="page-margin">
 			<div class="Mediummont" style="font-size:30px; font-weight: 700;text-align: center">
-				Daftar pemenang Techphoria 2019
+				Daftar pemenang Techphoria 2022
 			</div>
 
 			<div>

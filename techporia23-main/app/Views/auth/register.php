@@ -46,7 +46,7 @@
         <p>Already have an account? <a href="<?= url_to('login') ?>">Login</a></p>
     </div>
     <a class="logo-section" href="<?= base_url(); ?>">
-        <img src="/assets/images/logo.webp" alt="Techporia 2023" />
+        <img src="/assets/images/Logo TECHPO 2024.png" alt="Techporia 2024" />
         <h1>Technology Euphoria</h1>
     </a>
 </div>

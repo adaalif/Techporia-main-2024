@@ -30,9 +30,9 @@
 
     <!-- Page load script -->
     <script type="text/javascript">
-        $(window).on('load', function () {
+        $(window).on('load', function() {
             $('.loader-wrapper').fadeOut('slow');
-            <?php if (session()->getFlashdata('alert')): ?>
+            <?php if (session()->getFlashdata('alert')) : ?>
                 Swal.fire({
                     toast: true,
                     icon: '<?= session()->getFlashdata('alertType'); ?>',

@@ -7,7 +7,7 @@
 		<div class="page-margin">
 			<div id="sejarah-header"
 				style="background-image: url(<?= base_url('assets-old/images/background2.jpeg') ?>)">
-				<div id="tittle-anim1" style="padding-top: 100px" class="Smallmont" style=""><span><span
+				<div id="tittle-anim1" class="Smallmont" style=""><span><span
 							style="display:block; margin-bottom: 10px;font-size: 30px;">SEJARAH</span>Technology
 						Euphoria 2015</span></div>
 				<div id="tittle-anim2" class="Smallmont" style="">Technology Euphoria 2015 mempunyai tema “Indonesian
@@ -18,7 +18,7 @@
 		</div>
 	</div>
 	<div class="section-140"></div>
-	<div id="logo-bar" style="color: black;">
+	<div id="logo-bar">
 		<div class="page-margin">
 			<div class="uk-grid-collapse" uk-grid>
 				<div class="uk-width-expand@m">
@@ -73,7 +73,7 @@
 				<div class="uk-width-1-3@m">
 					<div id="info-right">
 						<div class="Smallmont"
-							style="font-weight: 700; font-size: 20px;line-height: 1.7; margin-bottom: 30px; text-align: center; color: gray">
+							style="font-weight: 700; font-size: 20px;line-height: 1.7; margin-bottom: 30px; text-align: center; color: white">
 							Penyelenggaraan <br>Techphoria 2015
 						</div>
 						<div class="Smallmont" id="hayongapain">

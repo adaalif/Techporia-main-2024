@@ -54,38 +54,23 @@
 	<div id="box-logo">
 		<img id="logo-entrance" src="<?= base_url() ?>assets-old/images/logos/<?= $tahun; ?>.png" alt="">
 		<div class="Smallmont"
-			style="text-align: center; font-size: 20px; font-weight: 700; color: #472639; margin-top: 30px">TECHPHORIA
+			style="text-align: center; font-size: 20px; font-weight: 700; margin-top: 30px">TECHPHORIA
 			<br>20<?= $tahun ?>
 		</div>
 	</div>
-	<div style="width: 100vw">
+	<div style="width: 100vw;">
 		<div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky;">
-			<nav class="uk-navbar-container" style="position: relative; z-index: 99;font-weight: 700" uk-navbar>
+			<nav class="uk-navbar-container" style="position: relative; z-index: 99;font-weight: 700; color: white" uk-navbar>
 				<div class="uk-navbar-center">
 
 					<div class="uk-navbar-center-left">
 						<div>
 							<ul class="uk-navbar-nav">
 								<li><a href="<?= base_url('') ?>">Beranda</a></li>
-								<li class="disnone">
-									<a href="#">Kompetisi</a>
-									<div class="uk-navbar-dropdown">
-										<ul class="uk-nav uk-navbar-dropdown-nav">
-											<li><a href="<?= site_url('kompetisi/competitive-programing') ?>">Competitive
-													Programming</a></li>
-											<li><a href="<?= site_url('kompetisi/business-plan') ?>">Business Plan</a></li>
-											<li><a href="<?= site_url('kompetisi/web-development') ?>">Web Development</a>
-											</li>
-											<li><a href="<?= site_url('kompetisi/networking-competition') ?>">Networking Competition</a>
-											</li>
-											<li><a href="<?= site_url('kompetisi/ui-ux') ?>">UI/UX Design</a></li>
-										</ul>
-									</div>
-								</li>
 							</ul>
 						</div>
 					</div>
-					<a class="uk-navbar-item uk-logo" href=""><img src="<?= base_url('favicon.png') ?>"
+					<a class="uk-navbar-item uk-logo" href=""><img src="<?= base_url() ?>assets-old/images/logos/<?= $tahun; ?>.png"
 							style="height: 30px;width: 30px;" alt=""></a>
 					<div class="uk-navbar-center-right">
 						<div>
@@ -101,7 +86,6 @@
 										</ul>
 									</div>
 								</li>
-								<li class="disnone"><a href="<?= site_url('register') ?>">Daftar</a></li>
 							</ul>
 						</div>
 					</div>

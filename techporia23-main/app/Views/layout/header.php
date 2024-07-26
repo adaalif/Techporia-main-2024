@@ -8,7 +8,7 @@
             <ul class="menu">
                 <li><a class="nav-link" href="<?php echo base_url(); ?>">Home</a></li>
                 <li><a class="nav-link" href="<?php echo base_url('#about'); ?>">About</a></li>
-                <li><a class="nav-link" href="<?php echo base_url('seminar'); ?>">Seminar</a></li>
+                <!-- <li><a class="nav-link" href="<?php echo base_url('seminar'); ?>">Seminar</a></li> -->
                 <li>
                     <button class="nav-link nav-dropdown" data-dropdown="competition-nav" aria-haspopup="true"
                         aria-expanded="false" aria-label="competition">
@@ -48,9 +48,9 @@
                     </button>
                     <div id="bazar-nav" class="nav-box" style="padding-right: 2rem;">
                         <ul>
-                            <li>
+                        <li>
                                 <a class="nav-data-link"
-                                href="<?= base_url('bazar/Musik'); ?>">Musik</a>
+                                href="<?= base_url('kompetisi/Musik'); ?>">Musik</a>
                             </li>
                             <li>
                                 <a class="nav-data-link"
@@ -59,7 +59,7 @@
                             <li>
                                 <a class="nav-data-link"
                                 href="<?= base_url('kompetisi/Tari'); ?>">Tari</a>
-                            </li>
+                            </li>
                             
                         </ul>
                     </div>
