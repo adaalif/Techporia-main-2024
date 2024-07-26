@@ -47,7 +47,7 @@
                             </li>
                             <li>
                                 <a class="nav-data-link"
-                                href="<?= base_url('kompetisi/Tati'); ?>">Dance</a>
+                                href="<?= base_url('kompetisi/Tari'); ?>">Dance</a>
                             </li>
                         </ul>
                     </div>
