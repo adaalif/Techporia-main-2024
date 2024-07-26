@@ -9,7 +9,7 @@
     <div class="section" style="padding-top: 3rem">
         <div class="detail-horizontal">
             <div class="image onscroll-r">
-                <img src="/assets/images/competition-logo/Lukis.png" alt="Lukis" />
+                <img src="/assets/images/competition-logo/painting.png" alt="Lukis" />
             </div>
             <div class="keterangan onscroll-r" style="--delay: 1;">
                 <h1>Lukis</h1>

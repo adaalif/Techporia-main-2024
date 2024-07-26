@@ -9,7 +9,7 @@
     <div class="section" style="padding-top: 3rem">
         <div class="detail-horizontal">
             <div class="image onscroll-r">
-                <img src="/assets/images/competition-logo/WEB DEVELOPMENT.png" alt="Web Development" />
+                <img src="/assets/images/competition-logo/web.png" alt="Web Development" />
             </div>
             <div class="keterangan onscroll-r" style="--delay: 1;">
                 <h1>Web Development</h1>

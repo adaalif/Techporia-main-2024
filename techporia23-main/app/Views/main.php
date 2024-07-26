@@ -45,7 +45,7 @@
         <div class="competition-grid">
             <div class="first-grid">
                 <div class="grid-child onscroll-r" style="--delay: 0;">
-                    <img src="<?= base_url('assets/images/competition-logo/bplan.webp'); ?>" alt="Business Plan"
+                    <img src="<?= base_url('assets/images/competition-logo/business.png'); ?>" alt="Business Plan"
                         class="logo-kompetisi-lg" />
                     <div class="competition-detail">
                         <p>Business Plan<br>Competition</p>
@@ -53,16 +53,16 @@
                     </div>
                 </div>
                 <div class="grid-child onscroll-r" style="--delay: 1;">
-                    <img src="<?= base_url('assets/images/competition-logo/netcomp.webp'); ?>" alt="Network Competition"
+                    <img src="<?= base_url('assets/images/competition-logo/essay.png'); ?>" alt="Network Competition"
                         class="logo-kompetisi-lg" />
                     <div class="competition-detail">
-                        <p>Networking<br>Competition</p>
+                        <p>Essay</p>
                         <a href="<?= base_url('kompetisi/networking-competition'); ?>"
                             class="btn btn-secondary">Selengkapnya</a>
                     </div>
                 </div>
                 <div class="grid-child onscroll-r" style="--delay: 2;">
-                    <img src="<?= base_url('assets/images/competition-logo/ui-ux.webp'); ?>" alt="UI/UX Design"
+                    <img src="<?= base_url('assets/images/competition-logo/ui-ux.png'); ?>" alt="UI/UX Design"
                         class="logo-kompetisi-lg" />
                     <div class="competition-detail">
                         <p>UI/UX Design<br>Competition</p>
@@ -72,7 +72,7 @@
             </div>
             <div class="second-grid">
                 <div class="grid-child onscroll-r" style="--delay: 1;">
-                    <img src="<?= base_url('assets/images/competition-logo/cp.webp'); ?>" alt="Competitive Programming"
+                    <img src="<?= base_url('assets/images/competition-logo/competitive.png'); ?>" alt="Competitive Programming"
                         class="logo-kompetisi-lg" />
                     <div class="competition-detail">
                         <p>Competitive<br>Programming</p>
@@ -81,7 +81,7 @@
                     </div>
                 </div>
                 <div class="grid-child onscroll-r" style="--delay: 2;">
-                    <img src="<?= base_url('assets/images/competition-logo/webdev.webp'); ?>" alt="Website Development"
+                    <img src="<?= base_url('assets/images/competition-logo/web.png'); ?>" alt="Website Development"
                         class="logo-kompetisi-lg" />
                     <div class="competition-detail">
                         <p>Web Development<br>Competition</p>

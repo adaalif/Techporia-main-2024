@@ -9,10 +9,10 @@
     <div class="section" style="padding-top: 3rem;">
         <div class="detail-horizontal">
             <div class="image onscroll-r">
-                <img src="/assets/images/competition-logo/netcomp.webp" alt="Networking Competition" />
+                <img src="/assets/images/competition-logo/essay.png" alt="Networking Competition" />
             </div>
             <div class="keterangan onscroll-r" style="--delay: 1;">
-                <h1>Networking Competition</h1>
+                <h1>Essay</h1>
                 <div class="paragraphs">
                     <p>
                         Kompetisi Networking Capture the Flag merupakan salah satu cabang kompetisi baru dalam event
