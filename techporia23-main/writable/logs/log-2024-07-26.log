@@ -1,0 +1,60 @@
+CRITICAL - 2024-07-26 18:47:11 --> Invalid file: "kompetisi/Tati.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kompetisi/Tati.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kompetisi/Tati', [], true)
+ 3 APPPATH\Controllers\MainController.php(78): view('kompetisi/Tati', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\MainController->kompetisi('Tati')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\asus\\OneDrive\\Desktop\\Techporia-main-2024\\techporia23-main\\public\\index.php')
+CRITICAL - 2024-07-26 18:47:16 --> Invalid file: "kompetisi/Tati.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kompetisi/Tati.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kompetisi/Tati', [], true)
+ 3 APPPATH\Controllers\MainController.php(78): view('kompetisi/Tati', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\MainController->kompetisi('Tati')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\asus\\OneDrive\\Desktop\\Techporia-main-2024\\techporia23-main\\public\\index.php')
+CRITICAL - 2024-07-26 18:48:13 --> Invalid file: "kompetisi/Tati.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kompetisi/Tati.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kompetisi/Tati', [], true)
+ 3 APPPATH\Controllers\MainController.php(78): view('kompetisi/Tati', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\MainController->kompetisi('Tati')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\asus\\OneDrive\\Desktop\\Techporia-main-2024\\techporia23-main\\public\\index.php')
+CRITICAL - 2024-07-26 18:48:16 --> Invalid file: "kompetisi/Tati.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kompetisi/Tati.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kompetisi/Tati', [], true)
+ 3 APPPATH\Controllers\MainController.php(78): view('kompetisi/Tati', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\MainController->kompetisi('Tati')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\asus\\OneDrive\\Desktop\\Techporia-main-2024\\techporia23-main\\public\\index.php')
+CRITICAL - 2024-07-26 18:48:17 --> Invalid file: "kompetisi/Tati.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kompetisi/Tati.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kompetisi/Tati', [], true)
+ 3 APPPATH\Controllers\MainController.php(78): view('kompetisi/Tati', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\MainController->kompetisi('Tati')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\asus\\OneDrive\\Desktop\\Techporia-main-2024\\techporia23-main\\public\\index.php')
+CRITICAL - 2024-07-26 18:48:23 --> Invalid file: "kompetisi/Tati.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kompetisi/Tati.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kompetisi/Tati', [], true)
+ 3 APPPATH\Controllers\MainController.php(78): view('kompetisi/Tati', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\MainController->kompetisi('Tati')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\asus\\OneDrive\\Desktop\\Techporia-main-2024\\techporia23-main\\public\\index.php')
