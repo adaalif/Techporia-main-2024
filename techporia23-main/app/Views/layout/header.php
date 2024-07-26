@@ -27,7 +27,7 @@
                             </li>
                             <li>
                                 <a class="nav-data-link"
-                                href="<?= base_url('kompetisi/networking-competition'); ?>">Networking Competition</a>
+                                href="<?= base_url('kompetisi/networking-competition'); ?>">Essay</a>
                             </li>
                             <li>
                                 <a class="nav-data-link"
@@ -36,6 +36,18 @@
                             <li>
                                 <a class="nav-data-link"
                                 href="<?= base_url('kompetisi/web-development'); ?>">Web Development</a>
+                            </li>
+                            <li>
+                                <a class="nav-data-link"
+                                href="<?= base_url('kompetisi/Musik'); ?>">Band</a>
+                            </li>
+                            <li>
+                                <a class="nav-data-link"
+                                href="<?= base_url('kompetisi/Lukis'); ?>">Painting</a>
+                            </li>
+                            <li>
+                                <a class="nav-data-link"
+                                href="<?= base_url('kompetisi/Tati'); ?>">Dance</a>
                             </li>
                         </ul>
                     </div>

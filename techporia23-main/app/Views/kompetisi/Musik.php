@@ -9,7 +9,7 @@
     <div class="section" style="padding-top: 3rem">
         <div class="detail-horizontal">
             <div class="image onscroll-r">
-                <img src="/assets/images/competition-logo/Musik.png" alt="Musik" />
+                <img src="/assets/images/competition-logo/band.png" alt="Musik" />
             </div>
             <div class="keterangan onscroll-r" style="--delay: 1;">
                 <h1>Musik</h1>

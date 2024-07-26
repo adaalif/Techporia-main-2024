@@ -22,8 +22,7 @@
 
     <div class="section light" id="about">
         <div class="about">
-            <img src="<?php echo base_url('assets/images/MASKOT 2.png') ?>" alt="maskot" class="onscroll-r"
-                style="--delay: 0;" />
+            <img src="<?php echo base_url('assets/images/MASKOT 2.png') ?>" alt="maskot" class="onscroll-r" style="--delay: 0;" />
             <div class="about-detail onscroll-r" style="--delay: 1;">
                 <h1>About <br> Technology Euphoria</h1>
                 <p>
@@ -45,25 +44,21 @@
         <div class="competition-grid">
             <div class="first-grid">
                 <div class="grid-child onscroll-r" style="--delay: 0;">
-                    <img src="<?= base_url('assets/images/competition-logo/bplan.webp'); ?>" alt="Business Plan"
-                        class="logo-kompetisi-lg" />
+                    <img src="<?= base_url('assets/images/competition-logo/business.png'); ?>" alt="Business Plan" class="logo-kompetisi-lg" />
                     <div class="competition-detail">
                         <p>Business Plan<br>Competition</p>
                         <a href="<?= base_url('kompetisi/business-plan'); ?>" class="btn btn-secondary">Selengkapnya</a>
                     </div>
                 </div>
                 <div class="grid-child onscroll-r" style="--delay: 1;">
-                    <img src="<?= base_url('assets/images/competition-logo/netcomp.webp'); ?>" alt="Network Competition"
-                        class="logo-kompetisi-lg" />
+                    <img src="<?= base_url('assets/images/competition-logo/essay.png'); ?>" alt="Network Competition" class="logo-kompetisi-lg" />
                     <div class="competition-detail">
-                        <p>Networking<br>Competition</p>
-                        <a href="<?= base_url('kompetisi/networking-competition'); ?>"
-                            class="btn btn-secondary">Selengkapnya</a>
+                        <p>Essay</p>
+                        <a href="<?= base_url('kompetisi/networking-competition'); ?>" class="btn btn-secondary">Selengkapnya</a>
                     </div>
                 </div>
                 <div class="grid-child onscroll-r" style="--delay: 2;">
-                    <img src="<?= base_url('assets/images/competition-logo/ui-ux.webp'); ?>" alt="UI/UX Design"
-                        class="logo-kompetisi-lg" />
+                    <img src="<?= base_url('assets/images/competition-logo/ui-ux.png'); ?>" alt="UI/UX Design" class="logo-kompetisi-lg" />
                     <div class="competition-detail">
                         <p>UI/UX Design<br>Competition</p>
                         <a href="<?= base_url('kompetisi/ui-ux'); ?>" class="btn btn-secondary">Selengkapnya</a>
@@ -72,21 +67,40 @@
             </div>
             <div class="second-grid">
                 <div class="grid-child onscroll-r" style="--delay: 1;">
-                    <img src="<?= base_url('assets/images/competition-logo/cp.webp'); ?>" alt="Competitive Programming"
-                        class="logo-kompetisi-lg" />
+                    <img src="<?= base_url('assets/images/competition-logo/competitive.png'); ?>" alt="Competitive Programming" class="logo-kompetisi-lg" />
                     <div class="competition-detail">
                         <p>Competitive<br>Programming</p>
-                        <a href="<?= base_url('kompetisi/competitive-programming'); ?>"
-                            class="btn btn-secondary">Selengkapnya</a>
+                        <a href="<?= base_url('kompetisi/competitive-programming'); ?>" class="btn btn-secondary">Selengkapnya</a>
                     </div>
                 </div>
                 <div class="grid-child onscroll-r" style="--delay: 2;">
-                    <img src="<?= base_url('assets/images/competition-logo/webdev.webp'); ?>" alt="Website Development"
-                        class="logo-kompetisi-lg" />
+                    <img src="<?= base_url('assets/images/competition-logo/web.png'); ?>" alt="Website Development" class="logo-kompetisi-lg" />
                     <div class="competition-detail">
                         <p>Web Development<br>Competition</p>
-                        <a href="<?= base_url('kompetisi/web-development'); ?>"
-                            class="btn btn-secondary">Selengkapnya</a>
+                        <a href="<?= base_url('kompetisi/web-development'); ?>" class="btn btn-secondary">Selengkapnya</a>
+                    </div>
+                </div>
+                <div class="grid-child onscroll-r" style="--delay: 2;">
+                    <img src="<?= base_url('assets/images/competition-logo/painting.png'); ?>" alt="Website Development" class="logo-kompetisi-lg" />
+                    <div class="competition-detail">
+                        <p>Painting</p>
+                        <a href="<?= base_url('kompetisi/web-development'); ?>" class="btn btn-secondary">Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+            <div class="second-grid">
+                <div class="grid-child onscroll-r" style="--delay: 1;">
+                    <img src="<?= base_url('assets/images/competition-logo/band.png'); ?>" alt="Competitive Programming" class="logo-kompetisi-lg" />
+                    <div class="competition-detail">
+                        <p>Band / Acoustic</p>
+                        <a href="<?= base_url('kompetisi/competitive-programming'); ?>" class="btn btn-secondary">Selengkapnya</a>
+                    </div>
+                </div>
+                <div class="grid-child onscroll-r" style="--delay: 2;">
+                    <img src="<?= base_url('assets/images/competition-logo/dance.png'); ?>" alt="Website Development" class="logo-kompetisi-lg" />
+                    <div class="competition-detail">
+                        <p>Dance Creation</p>
+                        <a href="<?= base_url('kompetisi/web-development'); ?>" class="btn btn-secondary">Selengkapnya</a>
                     </div>
                 </div>
             </div>
