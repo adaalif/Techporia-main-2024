@@ -500,7 +500,7 @@ svg {
     background-color: var(--danger);
     color: white;
     font-weight: 700;
-    border-radius: 2px;
+    border-radius: 6px;
     &:hover {
         opacity: 0.8;
     }
@@ -551,7 +551,7 @@ svg {
     position: relative;
     margin-top: 2rem;
     width: auto;
-    background-color: var(--main-color);
+    background-color: var(--neon-glow-color);
     padding: 0.8rem;
     font-size: 1.05rem;
     font-weight: 500;
@@ -721,8 +721,11 @@ svg {
     margin: 1rem 0;
     width: 70%;
     padding: 2rem;
-    background-color: var(--content);
+    /* background-color: var(--content); */
+    background-color: #401458;
+    border: 2px solid var(--neon-border-color);
     border-radius: 1rem;
+    box-shadow: 0 0 20px var(--neon-glow-color);
 }
 .container.top {
     margin-top: 3rem;
