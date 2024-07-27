@@ -32,7 +32,7 @@
                 <table class="details-table">
                     <tr>
                         <td><i class='bx bx-group'></i> Pendaftaran Peserta</td>
-                        <td>21 Agustus - 25 September 2023</td>
+                        <td>01 Agustus - 31 Agustus 2024</td>
                     </tr>
                     <tr>
                         <td><i class='bx bx-wrench'></i> Technical Meeting</td>
@@ -160,7 +160,7 @@
 
 <script type="text/javascript" src="<?= base_url('assets/js/competition.js'); ?>"></script>
 <script type="text/javascript">
-    let countdownDate = new Date('Sep 26, 2023').getTime();
+    let countdownDate = new Date('Sep 1, 2024').getTime();
     let x = setInterval(function () {
         let now = new Date().getTime();
         let distance = countdownDate - now;
