@@ -8,6 +8,7 @@
     <div class="auth-section">
         <h1>Register Account</h1>
         <h2>Create your account</h2>
+        
 
         <?php if (session('error') !== null) : ?>
             <div class="alert"></div><?= session('error') ?></div>
@@ -31,7 +32,7 @@
             </div>
             <div class="input">
                 <input type="text" class="input-field" name="username" value="<?= old('username') ?>" required />
-                <label class="input-label">Username</label>
+                <label class="input-label">Username (Cannot contain space)</label>
             </div>
             <div class="input">
                 <input type="password" class="input-field" name="password" required />
