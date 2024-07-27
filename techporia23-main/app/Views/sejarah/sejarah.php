@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Sejarah | Technology Euphoria 2021</title>
+  <title>Sejarah | Technology Euphoria</title>
   <link rel="icon" type="image/png" sizes="16x16" href="<?php echo base_url('favicon.ico'); ?>">
   <link rel="apple-touch-icon" sizes="57x57" href="<?php echo base_url('favicon.png'); ?>">
   <link rel="apple-touch-icon" sizes="60x60" href="<?php echo base_url('favicon.png'); ?>">
