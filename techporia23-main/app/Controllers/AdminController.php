@@ -119,17 +119,23 @@ class AdminController extends BaseController
 
             $bp = $dataTimModel->where('id_kompetisi', 5)->countAllResults();
             $cp = $dataTimModel->where('id_kompetisi', 1)->countAllResults();
-            $nc = $dataTimModel->where('id_kompetisi', 4)->countAllResults();
+            $essay = $dataTimModel->where('id_kompetisi', 4)->countAllResults();
             $uiux = $dataTimModel->where('id_kompetisi', 3)->countAllResults();
             $web = $dataTimModel->where('id_kompetisi', 2)->countAllResults();
+            $band = $dataTimModel->where('id_kompetisi', 8)->countAllResults();
+            $painting = $dataTimModel->where('id_kompetisi', 6)->countAllResults();
+            $dance = $dataTimModel->where('id_kompetisi', 7)->countAllResults();
 
             return view('admin/data_lomba_all', [
                 'dataTim' => $dataTim,
                 'bp' => $bp,
                 'cp' => $cp,
-                'nc' => $nc,
+                'essay' => $essay,
                 'uiux' => $uiux,
                 'web' => $web,
+                'band' => $band,
+                'painting' => $painting,
+                'dance' => $dance
             ]);
         }
 

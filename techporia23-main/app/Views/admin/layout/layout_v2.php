@@ -80,9 +80,12 @@
                     <div class="bg-white py-2 collapse-inner rounded">
                         <a class="collapse-item" href="<?= base_url('admin/lomba/5'); ?>">Business Plan</a>
                         <a class="collapse-item" href="<?= base_url('admin/lomba/1'); ?>">Competitive Programming</a>
-                        <a class="collapse-item" href="<?= base_url('admin/lomba/4'); ?>">Networking Competition</a>
+                        <a class="collapse-item" href="<?= base_url('admin/lomba/4'); ?>">Essay</a>
                         <a class="collapse-item" href="<?= base_url('admin/lomba/3'); ?>">UI/UX Design</a>
                         <a class="collapse-item" href="<?= base_url('admin/lomba/2'); ?>">Web Development</a>
+                        <a class="collapse-item" href="<?= base_url('admin/lomba/8'); ?>">Band / Acoustic</a>
+                        <a class="collapse-item" href="<?= base_url('admin/lomba/6'); ?>">Painting</a>
+                        <a class="collapse-item" href="<?= base_url('admin/lomba/7'); ?>">Dance Creation</a>
                     </div>
                 </div>
             </li>
