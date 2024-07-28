@@ -27,7 +27,7 @@
                             </li>
                             <li>
                                 <a class="nav-data-link"
-                                href="<?= base_url('kompetisi/Essay'); ?>">Essay</a>
+                                href="<?= base_url('kompetisi/networking-competition'); ?>">Networking Competition</a>
                             </li>
                             <li>
                                 <a class="nav-data-link"
@@ -39,7 +39,7 @@
                             </li>
                             <li>
                                 <a class="nav-data-link"
-                                href="<?= base_url('kompetisi/Musik'); ?>">Band</a>
+                                href="<?= base_url('kompetisi/Musik'); ?>">Band / Acoustic</a>
                             </li>
                             <li>
                                 <a class="nav-data-link"
@@ -47,34 +47,10 @@
                             </li>
                             <li>
                                 <a class="nav-data-link"
-                                href="<?= base_url('kompetisi/Tari'); ?>">Dance</a>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li>
-                    <button class="nav-link nav-dropdown" data-dropdown="bazar-nav" aria-haspopup="true"
-                        aria-expanded="false" aria-label="competition">
-                        Art & Bazar
-                        <i class="bx bx-chevron-down" aria-hidden="true"></i>
-                    </button>
-                    <div id="bazar-nav" class="nav-box" style="padding-right: 2rem;">
-                        <ul>
-                        <li>
-                                <a class="nav-data-link"
-                                href="<?= base_url('kompetisi/Musik'); ?>">Musik</a>
-                            </li>
-                            <li>
-                                <a class="nav-data-link"
-                                href="<?= base_url('kompetisi/Lukis'); ?>">Lukis</a>
-                            </li>
-                            <li>
-                                <a class="nav-data-link"
-                                href="<?= base_url('kompetisi/Tari'); ?>">Tari</a>
+                                href="<?= base_url('kompetisi/Tari'); ?>">Dance Creation</a>
                             </li>
-                            
                         </ul>
-                    </div>
+        
                 </li>
                 <li><a class="nav-link" href="<?php echo base_url('sejarah'); ?>">Kilas Balik</a></li>
                 <li><a class="nav-link" href="#contact">Contact</a></li>
