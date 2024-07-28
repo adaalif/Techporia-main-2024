@@ -503,6 +503,8 @@ svg {
     border-radius: 6px;
     &:hover {
         opacity: 0.8;
+        border: 1px solid var(--neon-border-color);
+        box-shadow: 0 0 20px var(--neon-glow-color);
     }
     &:active {
         opacity: 0.6;
@@ -780,6 +782,26 @@ tr {
 th,
 td {
     padding: 0.7rem 0.5rem;
+}
+
+@media screen and (max-width: 850px){
+
+    thead{
+        font-size: 3vw;
+        padding: 0.5rem;
+    }
+
+    .tim-info {
+        font-size: 3vw;
+    }
+
+    th, td {
+        padding: 0.7rem 0.2rem;
+    }
+
+    .badge{
+        padding: 0.1rem 0.1rem;
+    }
 }
 
 .tim-info {
@@ -1141,7 +1163,8 @@ textarea {
 }
 
 .anggota-detail {
-    padding: 1rem 5%;
+    /* padding: 1rem 5%; */
+    padding: 1rem 0px;
 }
 
 .card-flex {
