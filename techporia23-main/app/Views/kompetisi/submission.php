@@ -88,7 +88,7 @@
                                 disabled>
                         </div>
                         <div class="input-wrapper">
-                            <label for="proposal">Upload Proposal (pdf)</label>
+                            <label for="proposal">Upload Proposal (pdf: Max 5 mb)</label>
                             <input type="file" name="proposal" id="proposal" required />
                             <?php if ($dataProposal): ?>
                                 <label for="proposal">Last submitted at
@@ -142,3 +142,18 @@
 </div>
 
 <?= $this->endSection(); ?>
+
+<script type="text/javascript">
+    document.addEventListener("DOMContentLoaded", function() {
+        var fileInput = document.querySelectorAll('input[type="file"]');
+        fileInput.forEach(function(input) {
+            input.addEventListener('change', function(e) {
+                var fileSize = this.files[0].size / 1024 / 1024; // size in MB
+                if (fileSize > 5) {
+                    alert("File size exceeds 5 MB");
+                    this.value = ''; // Clear the file input
+                }
+            });
+        });
+    });
+</script>
