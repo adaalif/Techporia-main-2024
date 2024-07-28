@@ -217,7 +217,7 @@
             <input type="text" name="kontak" id="kontak" placeholder="08xxxxxxxxxx"
                 value="<?= $userData['kontak'] ?>" />
         </div>
-        <input type="submit" value="change" name="change" class="btn btn-submit" />
+        <input type="submit" value="Change" name="change" class="btn btn-submit" />
         <?= form_close(); ?>
     </div>
 </div>

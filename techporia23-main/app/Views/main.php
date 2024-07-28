@@ -149,37 +149,37 @@
         <a href="<?= base_url('sejarah'); ?>" class="btn btn-fancy">Selengkapnya</a>
         <div class="kilas-balik-grid">
             <div class="grid-child onscroll">
-                <img src="<?= base_url('assets-old/sejarah-image/techpho22-1.jpg'); ?>" alt="kilas balik" />
+                <img src="<?= base_url('assets-old/sejarah-image/techpho23-1.jpg'); ?>" alt="kilas balik" />
                 <div class="overlay">
                     <a href="<?= base_url('sejarah'); ?>">Kilas Balik Technology Euphoria 2023</a>
                 </div>
             </div>
             <div class="grid-child onscroll" style="--delay: 1;">
-                <img src="<?= base_url('assets-old/sejarah-image/techpho22-2.jpg'); ?>" alt="kilas balik" />
-                <div class="overlay">
-                    <a href="<?= base_url('sejarah'); ?>">Kilas Balik Technology Euphoria </a>
-                </div>
-            </div>
-            <div class="grid-child onscroll">
-                <img src="<?= base_url('assets-old/sejarah-image/techpho22-3.jpg'); ?>" alt="kilas balik" />
-                <div class="overlay">
-                    <a href="<?= base_url('sejarah'); ?>">Kilas Balik Technology Euphoria 2023</a>
-                </div>
-            </div>
-            <div class="grid-child onscroll" style="--delay: 1;">
-                <img src="<?= base_url('assets-old/sejarah-image/techpho22-4.jpg'); ?>" alt="kilas balik" />
+                <img src="<?= base_url('assets-old/sejarah-image/techpho23-2.jpg'); ?>" alt="kilas balik" />
                 <div class="overlay">
                     <a href="<?= base_url('sejarah'); ?>">Kilas Balik Technology Euphoria 2023</a>
                 </div>
             </div>
             <div class="grid-child onscroll">
-                <img src="<?= base_url('assets-old/sejarah-image/techpho22-5.jpg'); ?>" alt="kilas balik" />
+                <img src="<?= base_url('assets-old/sejarah-image/techpho23-3.jpg'); ?>" alt="kilas balik" />
                 <div class="overlay">
                     <a href="<?= base_url('sejarah'); ?>">Kilas Balik Technology Euphoria 2023</a>
                 </div>
             </div>
             <div class="grid-child onscroll" style="--delay: 1;">
-                <img src="<?= base_url('assets-old/sejarah-image/techpho22-6.jpg'); ?>" alt="kilas balik" />
+                <img src="<?= base_url('assets-old/sejarah-image/techpho23-7.jpg'); ?>" alt="kilas balik" />
+                <div class="overlay">
+                    <a href="<?= base_url('sejarah'); ?>">Kilas Balik Technology Euphoria 2023</a>
+                </div>
+            </div>
+            <div class="grid-child onscroll">
+                <img src="<?= base_url('assets-old/sejarah-image/techpho23-5.jpg'); ?>" alt="kilas balik" />
+                <div class="overlay">
+                    <a href="<?= base_url('sejarah'); ?>">Kilas Balik Technology Euphoria 2023</a>
+                </div>
+            </div>
+            <div class="grid-child onscroll" style="--delay: 1;">
+                <img src="<?= base_url('assets-old/sejarah-image/techpho23-6.jpg'); ?>" alt="kilas balik" />
                 <div class="overlay">
                     <a href="<?= base_url('sejarah'); ?>">Kilas Balik Technology Euphoria 2023</a>
                 </div>
