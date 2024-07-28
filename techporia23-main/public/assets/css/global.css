@@ -511,7 +511,7 @@ svg {
 
 .btn-info {
     background-color: transparent;
-    border: 1px solid var(--text);
+    border: 1px solid var(--neon-glow-color);
     color: var(--text);
     margin: 0;
     transition: all 0.2s ease;
@@ -1673,12 +1673,15 @@ textarea {
     margin: 5rem 0;
     width: 70%;
     padding: 2rem;
-    background-color: var(--content);
+    /* background-color: var(--content); */
     border-radius: 2px;
     display: flex;
     justify-content: center;
     gap: 2rem;
+    border: 2px solid var(--neon-border-color); 
+    box-shadow: 0 0 20px var(--neon-glow-color);
 }
+
 @media (max-width: 1300px) {
     .payment {
         width: 90%;
