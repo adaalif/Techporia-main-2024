@@ -51,10 +51,10 @@
                     </div>
                 </div>
                 <div class="grid-child onscroll-r" style="--delay: 1;">
-                    <img src="<?= base_url('assets/images/competition-logo/essay.png'); ?>" alt="Network Competition" class="logo-kompetisi-lg" />
+                    <img src="<?= base_url('assets/images/competition-logo/essay.png'); ?>" alt="Essay" class="logo-kompetisi-lg" />
                     <div class="competition-detail">
                         <p>Essay</p>
-                        <a href="<?= base_url('kompetisi/networking-competition'); ?>" class="btn btn-secondary">Selengkapnya</a>
+                        <a href="<?= base_url('kompetisi/Essay'); ?>" class="btn btn-secondary">Selengkapnya</a>
                     </div>
                 </div>
                 <div class="grid-child onscroll-r" style="--delay: 2;">
