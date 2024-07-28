@@ -202,7 +202,7 @@ class UserController extends BaseController
         $checkAnggota = $anggotaTimModel->where('anggota', auth()->user()->username)
             ->where('tim_id', $dataTim['tim_id'])->first();
         if ($checkAnggota) {
-            $session->setFlashdata('alert', 'Kamu sudah berada di dalam tim');
+            $session->setFlashdata('alert', 'Kamu sudah berada di dalam tim ini');
             $session->setFlashdata('alertTitle', 'Info');
             $session->setFlashdata('alertType', 'info');
             return redirect()->back();
@@ -319,6 +319,15 @@ class UserController extends BaseController
             return redirect()->back()->withInput();
         }
 
+        $proposal = $this->request->getFile('proposal');
+        if ($proposal->getSize() > 5 * 1024 * 1024) { // Check if file is larger than 5 MB
+            $session = Services::session();
+            $session->setFlashdata('alert', 'File size exceeds 5 MB');
+            $session->setFlashdata('alertTitle', 'Error');
+            $session->setFlashdata('alertType', 'error');
+            return redirect()->back()->withInput();
+        }
+
         $berkasModel = new BerkasModel();
         $dataProposal = $berkasModel->where('tim_id', $this->request->getPost('tim_id'))
             ->where('jenis', 'proposal')->first();
@@ -334,7 +343,6 @@ class UserController extends BaseController
 
         $dataProposal['created_at'] = date('Y-m-d H-i-s');
 
-        $proposal = $this->request->getFile('proposal');
         if (!$proposal->hasMoved()) {
             $filepath = 'uploads/' . $proposal->store();
             $dataProposal['berkas'] = $filepath;

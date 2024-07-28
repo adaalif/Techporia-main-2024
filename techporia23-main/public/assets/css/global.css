@@ -660,8 +660,8 @@ svg {
 }
 
 .badge-success {
-    border: 1px solid var(--tertiary-color);
-    color: var(--tertiary-color);
+    border: 1px solid var(--accent-color);
+    color: var(--accent-color);
 }
 
 .badge-danger {
