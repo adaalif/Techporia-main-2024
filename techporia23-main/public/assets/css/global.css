@@ -551,7 +551,8 @@ svg {
     position: relative;
     margin-top: 2rem;
     width: auto;
-    background-color: var(--neon-glow-color);
+    background-color: var(--accent-color);
+    color: var(--black);
     padding: 0.8rem;
     font-size: 1.05rem;
     font-weight: 500;
@@ -559,6 +560,8 @@ svg {
     transition: all 0.2s ease;
     &:hover {
         opacity: 0.8;
+        border: 1px solid var(--neon-border-color);
+        box-shadow: 0 0 20px var(--neon-glow-color);
     }
 }
 
