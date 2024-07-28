@@ -15,7 +15,7 @@
                 <h1>UI/UX Design</h1>
                 <div class="paragraphs">
                     <p>
-                        Kompetisi UI/UX merupakan cabang kompetisi dalam ajang Technology Euphoria 2023 untuk
+                        Kompetisi UI/UX merupakan cabang kompetisi dalam ajang Technology Euphoria 2024 untuk
                         menciptakan sebuah antarmuka produk yang dapat memberikan kenyamanan, kemudahan, dan mewujudkan
                         pengalaman terbaik bagi pengguna. Acara ini bertaraf nasional dan diselenggarakan oleh keluarga
                         mahasiswa Fakultas Ilmu Komputer Universitas Sriwijaya.
@@ -34,7 +34,7 @@
                 <table class="details-table">
                     <tr>
                         <td><i class='bx bx-group'></i> Pendaftaran Peserta</td>
-                        <td>21 Agustus - 25 September 2023</td>
+                        <td>01 Agustus - 31 Agustus 2024</td>
                     </tr>
                     <tr>
                         <td><i class='bx bx-wrench'></i> Technical Meeting</td>
@@ -131,7 +131,7 @@
                     Apakah karya yang pernah diikutsertakan dalam kompetisi lain dapat diikutsertakan kembali?
                     <span class="answer">
                         Tidak, karya yang sudah digunakan untuk kompetisi lain tidak boleh di submit di kompetisi UI/UX
-                        Technology Euphoria 2023.
+                        Technology Euphoria 2024.
                     </span>
                 </li>
                 <li>
@@ -159,7 +159,7 @@
 </div>
 
 <script type="text/javascript">
-    let countdownDate = new Date('Sep 26, 2023').getTime();
+    let countdownDate = new Date('Sep 1, 2024').getTime();
     let x = setInterval(function () {
         let now = new Date().getTime();
         let distance = countdownDate - now;

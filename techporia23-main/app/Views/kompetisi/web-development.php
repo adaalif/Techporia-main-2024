@@ -15,7 +15,7 @@
                 <h1>Web Development</h1>
                 <div class="paragraphs">
                     <p>
-                        Web development merupakan salah satu cabang kompetisi dalam event Technology Euphoria 2023,
+                        Web development merupakan salah satu cabang kompetisi dalam event Technology Euphoria 2024,
                         sebuah acara bertaraf nasional yang diadakan untuk mahasiswa aktif perguruan tinggi dan siswa
                         SMA/SMK aktif dari seluruh sekolah negeri maupun swasta di Indonesia. Kompetisi ini merupakan
                         kompetisi pengembangan web secara interaktif yang memberikan manfaat kepada penggunanya dimana
@@ -27,7 +27,7 @@
                 <table class="details-table">
                     <tr>
                         <td><i class='bx bx-group'></i> Pendaftaran Peserta</td>
-                        <td>21 Agustus - 25 September 2023</td>
+                        <td>01 Agustus - 31 Agustus 2024</td>
                     </tr>
                     <tr>
                         <td><i class='bx bx-wrench'></i> Technical Meeting</td>
@@ -120,9 +120,9 @@
             <h1>Frequently Asked Question (FAQ)</h1>
             <ol>
                 <li>
-                    Bagaimana cara mendaftarkan diri dalam kompetisi Web Development Technology Euphoria 2023?
+                    Bagaimana cara mendaftarkan diri dalam kompetisi Web Development Technology Euphoria 2024?
                     <span class="answer">
-                        Peserta telah mengikuti prosedur pendaftaran pada website resmi Techphoria 2023
+                        Peserta telah mengikuti prosedur pendaftaran pada website resmi Techphoria 2024
                         (https://technologyeuphoria.web.id) dan melengkapi data pendaftaran dengan benar. Peserta
                         yang tidak memenuhi persyaratan pendaftaran sampai waktu yang ditentukan akan dinyatakan gugur.
                     </span>
@@ -164,7 +164,7 @@
                 <li>
                     Bagaiman saya bisa mendapatkan template untuk proposal?
                     <span class="answer">
-                        Template proposal dapat diunduh di website resmi technology euphoria 2023.
+                        Template proposal dapat diunduh di website resmi technology euphoria 2024.
                     </span>
                 </li>
                 <li>
@@ -195,7 +195,7 @@
 </div>
 
 <script type="text/javascript">
-    let countdownDate = new Date('Sep 26, 2023').getTime();
+    let countdownDate = new Date('Sep 1, 2024').getTime();
     let x = setInterval(function () {
         let now = new Date().getTime();
         let distance = countdownDate - now;

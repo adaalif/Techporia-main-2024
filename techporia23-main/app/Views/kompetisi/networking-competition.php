@@ -33,7 +33,7 @@
                 <table class="details-table">
                     <tr>
                         <td><i class='bx bx-group'></i> Pendaftaran Peserta</td>
-                        <td>21 Agustus - 25 September 2023</td>
+                        <td>01 Agustus - 31 Agustus 2024</td>
                     </tr>
                     <tr>
                         <td><i class='bx bx-wrench'></i> Technical Meeting</td>
@@ -104,9 +104,9 @@
             <h1>Frequently Asked Question (FAQ)</h1>
             <ol>
                 <li>
-                    Bagaimana cara mendaftarkan diri dalam kompetisi Networking Technology Euphoria 2023?
+                    Bagaimana cara mendaftarkan diri dalam kompetisi Networking Technology Euphoria 2024?
                     <span class="answer">
-                        Peserta telah mengikuti prosedur pendaftaran pada website resmi Techphoria 2023
+                        Peserta telah mengikuti prosedur pendaftaran pada website resmi Techphoria 2024
                         (https://technologyeuphoria.web.id) dan melengkapi data pendaftaran dengan benar. Peserta yang
                         tidak memenuhi persyaratan pendaftaran sampai waktu yang ditentukan akan dinyatakan gugur.
                     </span>
@@ -146,7 +146,7 @@
 </div>
 
 <script type="text/javascript">
-    let countdownDate = new Date('Sep 26, 2023').getTime();
+    let countdownDate = new Date('Sep 1, 2024').getTime();
     let x = setInterval(function () {
         let now = new Date().getTime();
         let distance = countdownDate - now;

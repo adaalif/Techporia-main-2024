@@ -32,7 +32,7 @@
                 <table class="details-table">
                     <tr>
                         <td><i class='bx bx-group'></i> Pendaftaran Peserta</td>
-                        <td>21 Agustus - 25 September 2023</td>
+                        <td>01 Agustus - 31 Agustus 2024</td>
                     </tr>
                     <tr>
                         <td><i class='bx bx-wrench'></i> Technical Meeting</td>
@@ -101,9 +101,9 @@
             <h1>Frequently Asked Question (FAQ)</h1>
             <ol>
                 <li>
-                    Bagaimana cara mendaftarkan diri dalam kompetisi Competitive Programming Technology Euphoria 2023?
+                    Bagaimana cara mendaftarkan diri dalam kompetisi Competitive Programming Technology Euphoria 2024?
                     <span class="answer">
-                        Peserta telah mengikuti prosedur pendaftaran pada website resmi Techphoria 2023 yakni
+                        Peserta telah mengikuti prosedur pendaftaran pada website resmi Techphoria 2024 yakni
                         http://technologyeuphoria.web.id atau http://techphoria.ilkom.unsri.ac.id dan mengisi data
                         kelompok dengan lengkap. Peserta yang tidak memenuhi persyaratan pendaftaran sampai waktu yang
                         ditentukan akan dinyatakan gugur.
@@ -148,7 +148,7 @@
                 </li>
                 <li>
                     Bolehkah peserta Competitive Programming juga mendaftarkan diri pada cabang kompetisi lain di
-                    Techphoria 2023?
+                    Techphoria 2024?
                     <span class="answer">
                         Boleh, tetapi hanya sebagai anggota.
                     </span>
@@ -160,7 +160,7 @@
 
 <script type="text/javascript" src="<?= base_url('assets/js/competition.js'); ?>"></script>
 <script type="text/javascript">
-    let countdownDate = new Date('Sep 26, 2023').getTime();
+    let countdownDate = new Date('Sep 1, 2024').getTime();
     let x = setInterval(function () {
         let now = new Date().getTime();
         let distance = countdownDate - now;
