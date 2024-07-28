@@ -126,10 +126,13 @@
                                 <span class="badge badge-danger">Ditolak</span>
                             <?php endif; ?>
                         </td>
-                        <td style="text-align: right; width: 5%;"><svg xmlns="http://www.w3.org/2000/svg" fill="#cdcdcd"
-                                height="30" viewBox="0 -960 960 960" width="48">
-                                <path d="M480-345 240-585l43-43 197 198 197-197 43 43-240 239Z" />
-                            </svg></td>
+                        <td style="text-align: right; width: 5%;">
+                            <?php if ($t['transaction_status'] != 'settlement' && $t['transaction_status'] != 'capture'): ?>
+                                <a href="<?= base_url('kompetisi/payment/' . $t['tim_id']) ?>" class="btn btn-outline-primary">Lanjutkan Pembayaran</a>
+                            <?php elseif (!in_array($t['id_kompetisi'], [6, 7, 8]) && $t['status'] == 'verified'): ?>
+                                <a href="<?= base_url('profile/submission?id=' . $t['tim_id']) ?>" class="btn btn-outline-primary">Submission</a>
+                            <?php endif; ?>
+                        </td>
                     </tr>
                     <tr class="tim-detail">
                         <td colspan="6" class="anggota-detail">
@@ -205,7 +208,7 @@
             <input type="text" name="nim" id="nim" placeholder="NIM" value="<?= $userData['nim'] ?>" />
         </div>
         <div class="input-wrapper">
-            <label for="universitas">Universitas</label>
+            <label for="universitas">Universitas/Sekolah/Umum (jika bukan keduanya)</label>
             <input type="text" name="universitas" id="universitas" placeholder="Universitas"
                 value="<?= $userData['universitas'] ?>" />
         </div>

@@ -197,3 +197,77 @@ in APPPATH\Views\admin\dashboard_v2.php on line 102.
  8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
 10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Docs\\GitHub\\Techporia-main-2024\\techporia23-main\\public\\index.php')
+CRITICAL - 2024-07-28 18:42:15 --> Midtrans API is returning API error. HTTP status code: 404 API response: {"status_code":"404","status_message":"Transaction doesn't exist.","id":"a16e2df7-f0e2-41d4-a438-623856e91125"}
+in VENDORPATH\midtrans\midtrans-php\Midtrans\ApiRequestor.php on line 165.
+ 1 VENDORPATH\midtrans\midtrans-php\Midtrans\ApiRequestor.php(25): Midtrans\ApiRequestor::remoteCall('https://api.sandbox.midtrans.com/v2/513f1f01-c9da-474c-9fc9-d5c64364b709/status', 'SB-Mid-server-0xjDME9WUxJ5oGd8Xwyjr3WR', false, 'GET')
+ 2 VENDORPATH\midtrans\midtrans-php\Midtrans\Transaction.php(22): Midtrans\ApiRequestor::get('https://api.sandbox.midtrans.com/v2/513f1f01-c9da-474c-9fc9-d5c64364b709/status', 'SB-Mid-server-0xjDME9WUxJ5oGd8Xwyjr3WR', false)
+ 3 VENDORPATH\midtrans\midtrans-php\Midtrans\Notification.php(26): Midtrans\Transaction::status('513f1f01-c9da-474c-9fc9-d5c64364b709')
+ 4 APPPATH\Controllers\ApiController.php(20): Midtrans\Notification->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiController->notificationHandler()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Docs\\GitHub\\Techporia-main-2024\\techporia23-main\\public\\index.php')
+CRITICAL - 2024-07-28 18:42:49 --> Midtrans API is returning API error. HTTP status code: 404 API response: {"status_code":"404","status_message":"Transaction doesn't exist.","id":"4b9c5824-a686-49f0-b998-d4a1a0f605be"}
+in VENDORPATH\midtrans\midtrans-php\Midtrans\ApiRequestor.php on line 165.
+ 1 VENDORPATH\midtrans\midtrans-php\Midtrans\ApiRequestor.php(25): Midtrans\ApiRequestor::remoteCall('https://api.sandbox.midtrans.com/v2/513f1f01-c9da-474c-9fc9-d5c64364b709/status', 'SB-Mid-server-0xjDME9WUxJ5oGd8Xwyjr3WR', false, 'GET')
+ 2 VENDORPATH\midtrans\midtrans-php\Midtrans\Transaction.php(22): Midtrans\ApiRequestor::get('https://api.sandbox.midtrans.com/v2/513f1f01-c9da-474c-9fc9-d5c64364b709/status', 'SB-Mid-server-0xjDME9WUxJ5oGd8Xwyjr3WR', false)
+ 3 VENDORPATH\midtrans\midtrans-php\Midtrans\Notification.php(26): Midtrans\Transaction::status('513f1f01-c9da-474c-9fc9-d5c64364b709')
+ 4 APPPATH\Controllers\ApiController.php(20): Midtrans\Notification->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiController->notificationHandler()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Docs\\GitHub\\Techporia-main-2024\\techporia23-main\\public\\index.php')
+CRITICAL - 2024-07-28 18:46:34 --> Midtrans API is returning API error. HTTP status code: 404 API response: {"status_code":"404","status_message":"Transaction doesn't exist.","id":"12debb05-0db5-4c36-9438-280ec7186990"}
+in VENDORPATH\midtrans\midtrans-php\Midtrans\ApiRequestor.php on line 165.
+ 1 VENDORPATH\midtrans\midtrans-php\Midtrans\ApiRequestor.php(25): Midtrans\ApiRequestor::remoteCall('https://api.sandbox.midtrans.com/v2/513f1f01-c9da-474c-9fc9-d5c64364b709/status', 'SB-Mid-server-0xjDME9WUxJ5oGd8Xwyjr3WR', false, 'GET')
+ 2 VENDORPATH\midtrans\midtrans-php\Midtrans\Transaction.php(22): Midtrans\ApiRequestor::get('https://api.sandbox.midtrans.com/v2/513f1f01-c9da-474c-9fc9-d5c64364b709/status', 'SB-Mid-server-0xjDME9WUxJ5oGd8Xwyjr3WR', false)
+ 3 VENDORPATH\midtrans\midtrans-php\Midtrans\Notification.php(26): Midtrans\Transaction::status('513f1f01-c9da-474c-9fc9-d5c64364b709')
+ 4 APPPATH\Controllers\ApiController.php(20): Midtrans\Notification->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiController->notificationHandler()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Docs\\GitHub\\Techporia-main-2024\\techporia23-main\\public\\index.php')
+CRITICAL - 2024-07-28 18:48:54 --> Midtrans API is returning API error. HTTP status code: 404 API response: {"status_code":"404","status_message":"Transaction doesn't exist.","id":"5af78cd9-3e18-4f0a-ad25-ff563600550c"}
+in VENDORPATH\midtrans\midtrans-php\Midtrans\ApiRequestor.php on line 165.
+ 1 VENDORPATH\midtrans\midtrans-php\Midtrans\ApiRequestor.php(25): Midtrans\ApiRequestor::remoteCall('https://api.sandbox.midtrans.com/v2/513f1f01-c9da-474c-9fc9-d5c64364b709/status', 'SB-Mid-server-0xjDME9WUxJ5oGd8Xwyjr3WR', false, 'GET')
+ 2 VENDORPATH\midtrans\midtrans-php\Midtrans\Transaction.php(22): Midtrans\ApiRequestor::get('https://api.sandbox.midtrans.com/v2/513f1f01-c9da-474c-9fc9-d5c64364b709/status', 'SB-Mid-server-0xjDME9WUxJ5oGd8Xwyjr3WR', false)
+ 3 VENDORPATH\midtrans\midtrans-php\Midtrans\Notification.php(26): Midtrans\Transaction::status('513f1f01-c9da-474c-9fc9-d5c64364b709')
+ 4 APPPATH\Controllers\ApiController.php(20): Midtrans\Notification->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ApiController->notificationHandler()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Docs\\GitHub\\Techporia-main-2024\\techporia23-main\\public\\index.php')
+CRITICAL - 2024-07-28 19:40:56 --> Undefined array key "group_denied"
+in VENDORPATH\codeigniter4\shield\src\Config\Auth.php on line 495.
+ 1 VENDORPATH\codeigniter4\shield\src\Config\Auth.php(495): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "group_denied"', 'D:\\Docs\\GitHub\\Techporia-main-2024\\techporia23-main\\vendor\\codeigniter4\\shield\\src\\Config\\Auth.php', 495)
+ 2 VENDORPATH\codeigniter4\shield\src\Filters\GroupFilter.php(37): CodeIgniter\Shield\Config\Auth->groupDeniedRedirect()
+ 3 VENDORPATH\codeigniter4\shield\src\Filters\AbstractAuthFilter.php(54): CodeIgniter\Shield\Filters\GroupFilter->redirectToDeniedUrl()
+ 4 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Shield\Filters\AbstractAuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 5 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('admin/detail-tim/4b53b6', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Docs\\GitHub\\Techporia-main-2024\\techporia23-main\\public\\index.php')
+CRITICAL - 2024-07-28 19:40:58 --> Undefined array key "group_denied"
+in VENDORPATH\codeigniter4\shield\src\Config\Auth.php on line 495.
+ 1 VENDORPATH\codeigniter4\shield\src\Config\Auth.php(495): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "group_denied"', 'D:\\Docs\\GitHub\\Techporia-main-2024\\techporia23-main\\vendor\\codeigniter4\\shield\\src\\Config\\Auth.php', 495)
+ 2 VENDORPATH\codeigniter4\shield\src\Filters\GroupFilter.php(37): CodeIgniter\Shield\Config\Auth->groupDeniedRedirect()
+ 3 VENDORPATH\codeigniter4\shield\src\Filters\AbstractAuthFilter.php(54): CodeIgniter\Shield\Filters\GroupFilter->redirectToDeniedUrl()
+ 4 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Shield\Filters\AbstractAuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 5 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('admin/detail-tim/4b53b6', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Docs\\GitHub\\Techporia-main-2024\\techporia23-main\\public\\index.php')
+CRITICAL - 2024-07-28 19:40:59 --> Undefined array key "group_denied"
+in VENDORPATH\codeigniter4\shield\src\Config\Auth.php on line 495.
+ 1 VENDORPATH\codeigniter4\shield\src\Config\Auth.php(495): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "group_denied"', 'D:\\Docs\\GitHub\\Techporia-main-2024\\techporia23-main\\vendor\\codeigniter4\\shield\\src\\Config\\Auth.php', 495)
+ 2 VENDORPATH\codeigniter4\shield\src\Filters\GroupFilter.php(37): CodeIgniter\Shield\Config\Auth->groupDeniedRedirect()
+ 3 VENDORPATH\codeigniter4\shield\src\Filters\AbstractAuthFilter.php(54): CodeIgniter\Shield\Filters\GroupFilter->redirectToDeniedUrl()
+ 4 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Shield\Filters\AbstractAuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 5 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('admin/dashboard', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Docs\\GitHub\\Techporia-main-2024\\techporia23-main\\public\\index.php')
