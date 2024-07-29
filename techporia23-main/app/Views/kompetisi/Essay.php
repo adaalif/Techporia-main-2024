@@ -1,6 +1,6 @@
 <?= $this->extend('layout/master_layout'); ?>
 
-<?= $this->section('title'); ?> Networking Competition | Technology Euhporia
+<?= $this->section('title'); ?> Essay | Technology Euhporia
 <?= $this->endSection(); ?>
 
 <?= $this->section('content'); ?>

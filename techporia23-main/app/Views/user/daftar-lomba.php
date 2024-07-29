@@ -32,7 +32,7 @@
                     <option value="1">Competitive Programming</option>
                                 <option value="2">Web Development</option>
                                 <option value="3">UI/UX Design</option>
-                                <option value="4">Networking Competition</option>
+                                <option value="4">Essay</option>
                                 <option value="5">Business Plan</option>
                                 <option value="6">Lukis </option>
                                 <option value="7">Tari</option>
