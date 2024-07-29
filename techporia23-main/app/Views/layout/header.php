@@ -8,7 +8,7 @@
             <ul class="menu">
                 <li><a class="nav-link" href="<?php echo base_url(); ?>">Home</a></li>
                 <li><a class="nav-link" href="<?php echo base_url('#about'); ?>">About</a></li>
-                <!-- <li><a class="nav-link" href="<?php echo base_url('seminar'); ?>">Seminar</a></li> -->
+                <li><a class="nav-link" href="<?php echo base_url('seminar'); ?>">Seminar</a></li>
                 <li>
                     <button class="nav-link nav-dropdown" data-dropdown="competition-nav" aria-haspopup="true"
                         aria-expanded="false" aria-label="competition">

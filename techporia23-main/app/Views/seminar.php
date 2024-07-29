@@ -7,7 +7,8 @@
 
 <div class="main">
     <div class="section light" style="padding: 3rem 0;">
-        <div class="detail-horizontal">
+        <h1>Coming Soon</h1>
+        <!-- <div class="detail-horizontal">
             <div class="image">
                 <img src="/assets/images/seminar.webp" alt="Seminar Nasional" />
             </div>
@@ -69,7 +70,7 @@
                     <a href="<?= base_url('seminar/daftar'); ?>" class="btn btn-secondary">Daftar Seminar</a>
                 <?php endif; ?>
             </div>
-        </div>
+        </div> -->
     </div>
 </div>
 
