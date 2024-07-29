@@ -12,7 +12,7 @@
                 <img src="/assets/images/competition-logo/band.png" alt="Musik" />
             </div>
             <div class="keterangan onscroll-r" style="--delay: 1;">
-                <h1>Musik</h1>
+                <h1>Band / Acoustic</h1>
                 <div class="paragraphs">
                     <p>
                         Kompetisi Competitive Programming dengan tema "Code Optimization and Performance Tuning"
@@ -32,40 +32,30 @@
                 <table class="details-table">
                     <tr>
                         <td><i class='bx bx-group'></i> Pendaftaran Peserta</td>
-                        <td>01 Agustus - 31 Agustus 2024</td>
+                        <td>01 Agustus - 30 Agustus 2024</td>
                     </tr>
                     <tr>
                         <td><i class='bx bx-wrench'></i> Technical Meeting</td>
-                        <td>27 September 2023</td>
+                        <td>23 Oktober 2024</td>
                     </tr>
                     <tr>
-                        <td><i class='bx bx-calendar-event'></i> Babak Penyisihan</td>
-                        <td>8 Oktober 2023</td>
-                    </tr>
-                    <tr>
-                        <td><i class='bx bx-notepad'></i> Pengumuman Finalis</td>
-                        <td>12 Oktober 2023</td>
-                    </tr>
-                    <tr>
-                        <td><i class='bx bx-calendar-event'></i> Opening Ceremony</td>
-                        <td>16 Oktober 2023</td>
+                        <td><i class='bx bx-calendar-event'></i> Lomba Berlangsung</td>
+                        <td>25 Oktober - 26 Oktober 2024</td>
                     </tr>
                     <tr>
                         <td><i class='bx bx-calendar-event'></i> Babak Final</td>
-                        <td>18 Oktober 2023</td>
+                        <td>26 Oktober 2024</td>
                     </tr>
                     <tr>
                         <td><i class='bx bx-notepad'></i> Pengumuman Pemenang</td>
-                        <td>21 Oktober 2023</td>
+                        <td>27 Oktober 2024</td>
                     </tr>
                 </table>
-                <?php if ($data): ?>
+                <?php if ($data) : ?>
                     <div class="badge badge-success" style="margin-top: 2rem; display: block;">Sudah Daftar</div>
-                    <a href="<?= base_url('profile'); ?>" class="btn btn-info-solid"
-                        style="display: block; margin-top: 1rem;">Lihat Detail</a>
-                <?php else: ?>
-                    <a href="<?= base_url('profile/daftar-lomba'); ?>" class="btn btn-secondary"
-                        style="margin-top: 2rem;">Daftar Sekarang</a>
+                    <a href="<?= base_url('profile'); ?>" class="btn btn-info-solid" style="display: block; margin-top: 1rem;">Lihat Detail</a>
+                <?php else : ?>
+                    <a href="<?= base_url('profile/daftar-lomba'); ?>" class="btn btn-secondary" style="margin-top: 2rem;">Daftar Sekarang</a>
                 <?php endif; ?>
             </div>
         </div>
@@ -94,63 +84,40 @@
                     mengikuti lomba</li>
             </ul>
             <div class="links onscroll-r">
-                <a href="<?= base_url('download/'.urlencode('GB CP.pdf')); ?>" class="btn btn-secondary">Download Guidebook</a>
+                <a href="<?= base_url('download/' . urlencode('GB CP.pdf')); ?>" class="btn btn-secondary">Download Guidebook</a>
             </div>
         </div>
         <div class="faq onscroll">
             <h1>Frequently Asked Question (FAQ)</h1>
             <ol>
                 <li>
-                    Bagaimana cara mendaftarkan diri dalam kompetisi Competitive Programming Technology Euphoria 2023?
+                    Bagaimana peserta harus mempersiapkan dan menyerahkan musik atau materi lain sebelum lomba?
                     <span class="answer">
-                        Peserta telah mengikuti prosedur pendaftaran pada website resmi Techphoria 2023 yakni
-                        http://technologyeuphoria.web.id atau http://techphoria.ilkom.unsri.ac.id dan mengisi data
-                        kelompok dengan lengkap. Peserta yang tidak memenuhi persyaratan pendaftaran sampai waktu yang
-                        ditentukan akan dinyatakan gugur.
+                        Peserta mempersiapkan dan menyerahkan instrumen atau music dan alat - alat lain nya pada saat technical meeting di tanggal yang telah ditentukan panitia.
                     </span>
                 </li>
                 <li>
-                    Apakah setiap peserta harus melengkapi data pribadi secara terpisah?
+                    Apakah peserta mempersiapkan kostum dan properti sendiri?
                     <span class="answer">
-                        Pengunggahan data dilakukan dengan mengunggah foto/scan bukti pembayaran dan Foto/scan Kartu
-                        Tanda Pelajar.
+                        Peserta dipersilahkan mempersiapkan sendiri kostum dan properti yang sekiranya akan diperlukan untuk penampilan masing-masing.
                     </span>
                 </li>
                 <li>
-                    Bolehkah saya menjadi anggota di tim competitive programming yang lain?
+                    Jika salah satu anggota tim berhalangan hadir, apakah tetap boleh mengikuti lomba?
                     <span class="answer">
-                        Tidak, satu anggota tidak bisa berada di tim lain dalam kompetisi ini.
+                        Asalkan masih terdiri dari 3 orang atau 4 orang itu masih bisa ikut lomba tapi jika kurang dari 2 orang maka tim akan diskualifikasi dan HTM tidak dikembalikan.
                     </span>
                 </li>
                 <li>
-                    Berapa jumlah maksimal anggota dalam satu tim?
+                    Bolehkah seorang peserta menjadi anggota dari beberapa tim di kompetisi Art and Bazaar?
                     <span class="answer">
-                        Setiap peserta dapat mengikuti lomba secara individu (1 orang) maupun tim yang beranggotakan
-                        maksimal 3 orang mahasiswa. Masing-masing anggota boleh berasal dari universitas yang berbeda.
+                        Peserta hanya boleh tergabung dalam satu tim pada suatu kategori lomba.
                     </span>
                 </li>
                 <li>
-                    Bagaimana sistem kompetisi Competitive Programming?
+                    Bagaimana jika tim saya tidak dapat hadir pada acara secara langsung?
                     <span class="answer">
-                        Pada kompetisi ini, perlombaan dilakukan di platform hackerrank. Terdapat dua babak, yaitu babak
-                        penyisihan yang dilaksanakan secara daring melalui zoom meeting dan babak final yang
-                        diselenggarakan secara hybrid di Fakultas Ilmu Komputer Universitas Sriwijaya dan Zoom Meeting.
-                    </span>
-                </li>
-                <li>
-                    Bagaimana mekanisme perlombaan?
-                    <span class="answer">
-                        Peserta wajib memiliki akun aktif Hackerrank dengan nama akun yang sama dengan nama tim saat
-                        didaftarkan dan terdapat soal yang harus diselesaikan dalam waktu 120 menit. Peserta harus
-                        menjawab soal dengan bahasa pemrograman C++ atau Java. Penilaian akan diambil dari scoreboard
-                        yang tertera pada Hackerrank.
-                    </span>
-                </li>
-                <li>
-                    Bolehkah peserta Competitive Programming juga mendaftarkan diri pada cabang kompetisi lain di
-                    Techphoria 2023?
-                    <span class="answer">
-                        Boleh, tetapi hanya sebagai anggota.
+                        Jika tim anda tidak dapat hadir pada acara secara langsung, biaya pendaftaran atau HTM tidak akan dikembalikan dan tim anda akan dianggap mengundurkan diri.
                     </span>
                 </li>
             </ol>
@@ -161,7 +128,7 @@
 <script type="text/javascript" src="<?= base_url('assets/js/competition.js'); ?>"></script>
 <script type="text/javascript">
     let countdownDate = new Date('Sep 1, 2024').getTime();
-    let x = setInterval(function () {
+    let x = setInterval(function() {
         let now = new Date().getTime();
         let distance = countdownDate - now;
 
