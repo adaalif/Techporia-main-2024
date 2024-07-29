@@ -1,6 +1,6 @@
 <?= $this->extend('layout/master_layout'); ?>
 
-<?= $this->section('title'); ?> Musik | Technology Euhporia
+<?= $this->section('title'); ?> Band / Acoustic | Technology Euhporia
 <?= $this->endSection(); ?>
 
 <?= $this->section('content'); ?>
@@ -9,24 +9,13 @@
     <div class="section" style="padding-top: 3rem">
         <div class="detail-horizontal">
             <div class="image onscroll-r">
-                <img src="/assets/images/competition-logo/band.png" alt="Musik" />
+                <img src="/assets/images/competition-logo/band.webp" alt="Musik" />
             </div>
             <div class="keterangan onscroll-r" style="--delay: 1;">
                 <h1>Band / Acoustic</h1>
                 <div class="paragraphs">
                     <p>
-                        Kompetisi Competitive Programming dengan tema "Code Optimization and Performance Tuning"
-                        merupakan salah satu cabang kompetisi yang sangat dinantikan dalam event Technology Euphoria,
-                        sebuah acara bertaraf nasional yang diadakan untuk mahasiswa aktif di perguruan tinggi dan siswa
-                        SMA/SMK sederajat di Indonesia. Competitive Programming ini terdiri dari dua babak, yaitu babak
-                        penyisihan yang dilakukan secara online melalui platform zoom meeting dan babak final yang
-                        dilakukan secara hybrid di Fakultas Ilmu Komputer Universitas Sriwijaya dan Zoom Meeting.
-                    </p>
-                    <p>
-                        Tujuan utama dari kompetisi ini adalah menguji kemampuan peserta dalam berpikir logis dan
-                        sistematis dalam memecahkan persoalan dengan menggunakan bahasa pemrograman C++/Java. Fokus
-                        utama perlombaan ini adalah mengoptimalkan kode dan meningkatkan kinerja program yang ditulis
-                        oleh peserta.
+                        Kompetisi Band / Acoustic adalah sebuah acara atau kontes di mana berbagai grup musik atau band bersaing untuk menunjukkan kemampuan mereka di depan juri dan audiens. Tujuan dari kompetisi ini adalah untuk menampilkan bakat musik, keterampilan dalam memainkan alat musik, kreativitas dalam aransemen lagu, serta kemampuan untuk tampil di panggung. Pemenang kompetisi biasanya dipilih berdasarkan berbagai kriteria seperti teknik, penampilan, kesatuan band, dan respons dari penonton. Kompetisi band sering diadakan di sekolah, universitas, festival musik, atau acara komunitas, dan bisa mencakup berbagai genre musik.
                     </p>
                 </div>
                 <table class="details-table">
@@ -71,7 +60,7 @@
                 <li><span id="seconds">12</span>Detik</li>
             </ul>
         </div>
-        <div class="informasi-lomba">
+        <!-- <div class="informasi-lomba">
             <h1 class="onscroll-r">Informasi Lomba</h1>
             <ul>
                 <li class="onscroll-r"><i class='bx bxs-chevron-right'></i> Seluruh peserta diwajibkan membaca guidebook
@@ -86,7 +75,7 @@
             <div class="links onscroll-r">
                 <a href="<?= base_url('download/' . urlencode('GB CP.pdf')); ?>" class="btn btn-secondary">Download Guidebook</a>
             </div>
-        </div>
+        </div> -->
         <div class="faq onscroll">
             <h1>Frequently Asked Question (FAQ)</h1>
             <ol>
@@ -127,7 +116,7 @@
 
 <script type="text/javascript" src="<?= base_url('assets/js/competition.js'); ?>"></script>
 <script type="text/javascript">
-    let countdownDate = new Date('Sep 1, 2024').getTime();
+    let countdownDate = new Date('Aug 31, 2024').getTime();
     let x = setInterval(function() {
         let now = new Date().getTime();
         let distance = countdownDate - now;

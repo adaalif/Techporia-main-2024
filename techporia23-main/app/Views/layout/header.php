@@ -1,7 +1,7 @@
 <header>
     <div class="header-wrapper">
         <a class="header-logo" href="<?php echo base_url(); ?>">
-            <img src="<?php echo base_url(); ?>/assets/images/Logo TECHPO 2024.png" alt="Technology Euphoria">
+            <img src="<?php echo base_url(); ?>/assets/images/logo24.webp" alt="Technology Euphoria">
             <span>Technology Euphoria</span>
         </a>
         <nav>

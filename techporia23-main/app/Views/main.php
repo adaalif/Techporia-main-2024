@@ -44,21 +44,21 @@
         <div class="competition-grid">
             <div class="first-grid">
                 <div class="grid-child onscroll-r" style="--delay: 0;">
-                    <img src="<?= base_url('assets/images/competition-logo/business.png'); ?>" alt="Business Plan" class="logo-kompetisi-lg" />
+                    <img src="<?= base_url('assets/images/competition-logo/business.webp'); ?>" alt="Business Plan" class="logo-kompetisi-lg" />
                     <div class="competition-detail">
                         <p>Business Plan<br>Competition</p>
                         <a href="<?= base_url('kompetisi/business-plan'); ?>" class="btn btn-secondary">Selengkapnya</a>
                     </div>
                 </div>
                 <div class="grid-child onscroll-r" style="--delay: 1;">
-                    <img src="<?= base_url('assets/images/competition-logo/essay.png'); ?>" alt="Network Competition" class="logo-kompetisi-lg" />
+                    <img src="<?= base_url('assets/images/competition-logo/essay.webp'); ?>" alt="Network Competition" class="logo-kompetisi-lg" />
                     <div class="competition-detail">
                         <p>Essay</p>
                         <a href="<?= base_url('kompetisi/networking-competition'); ?>" class="btn btn-secondary">Selengkapnya</a>
                     </div>
                 </div>
                 <div class="grid-child onscroll-r" style="--delay: 2;">
-                    <img src="<?= base_url('assets/images/competition-logo/ui-ux.png'); ?>" alt="UI/UX Design" class="logo-kompetisi-lg" />
+                    <img src="<?= base_url('assets/images/competition-logo/ui-ux.webp'); ?>" alt="UI/UX Design" class="logo-kompetisi-lg" />
                     <div class="competition-detail">
                         <p>UI/UX Design<br>Competition</p>
                         <a href="<?= base_url('kompetisi/ui-ux'); ?>" class="btn btn-secondary">Selengkapnya</a>
@@ -67,21 +67,21 @@
             </div>
             <div class="second-grid">
                 <div class="grid-child onscroll-r" style="--delay: 1;">
-                    <img src="<?= base_url('assets/images/competition-logo/competitive.png'); ?>" alt="Competitive Programming" class="logo-kompetisi-lg" />
+                    <img src="<?= base_url('assets/images/competition-logo/competitive.webp'); ?>" alt="Competitive Programming" class="logo-kompetisi-lg" />
                     <div class="competition-detail">
                         <p>Competitive<br>Programming</p>
                         <a href="<?= base_url('kompetisi/competitive-programming'); ?>" class="btn btn-secondary">Selengkapnya</a>
                     </div>
                 </div>
                 <div class="grid-child onscroll-r" style="--delay: 2;">
-                    <img src="<?= base_url('assets/images/competition-logo/web.png'); ?>" alt="Website Development" class="logo-kompetisi-lg" />
+                    <img src="<?= base_url('assets/images/competition-logo/web.webp'); ?>" alt="Website Development" class="logo-kompetisi-lg" />
                     <div class="competition-detail">
                         <p>Web Development<br>Competition</p>
                         <a href="<?= base_url('kompetisi/web-development'); ?>" class="btn btn-secondary">Selengkapnya</a>
                     </div>
                 </div>
                 <div class="grid-child onscroll-r" style="--delay: 2;">
-                    <img src="<?= base_url('assets/images/competition-logo/painting.png'); ?>" alt="Website Development" class="logo-kompetisi-lg" />
+                    <img src="<?= base_url('assets/images/competition-logo/painting.webp'); ?>" alt="Website Development" class="logo-kompetisi-lg" />
                     <div class="competition-detail">
                         <p>Painting</p>
                         <a href="<?= base_url('kompetisi/web-development'); ?>" class="btn btn-secondary">Selengkapnya</a>
@@ -90,14 +90,14 @@
             </div>
             <div class="second-grid">
                 <div class="grid-child onscroll-r" style="--delay: 1;">
-                    <img src="<?= base_url('assets/images/competition-logo/band.png'); ?>" alt="Competitive Programming" class="logo-kompetisi-lg" />
+                    <img src="<?= base_url('assets/images/competition-logo/band.webp'); ?>" alt="Competitive Programming" class="logo-kompetisi-lg" />
                     <div class="competition-detail">
                         <p>Band / Acoustic</p>
                         <a href="<?= base_url('kompetisi/competitive-programming'); ?>" class="btn btn-secondary">Selengkapnya</a>
                     </div>
                 </div>
                 <div class="grid-child onscroll-r" style="--delay: 2;">
-                    <img src="<?= base_url('assets/images/competition-logo/dance.png'); ?>" alt="Website Development" class="logo-kompetisi-lg" />
+                    <img src="<?= base_url('assets/images/competition-logo/dance.webp'); ?>" alt="Website Development" class="logo-kompetisi-lg" />
                     <div class="competition-detail">
                         <p>Dance Creation</p>
                         <a href="<?= base_url('kompetisi/web-development'); ?>" class="btn btn-secondary">Selengkapnya</a>
@@ -187,7 +187,7 @@
         </div>
     </div>
 
-    <div class="section light" id="sponsors">
+    <!-- <div class="section light" id="sponsors">
         <div class="section-ms">
             <h1 class="onscroll-r">SPONSORS</h1>
             <div class="ms">
@@ -199,9 +199,9 @@
                 ?>
             </div>
         </div>
-    </div>
+    </div> -->
 
-    <div class="section" id="media-partners">
+    <!-- <div class="section" id="media-partners">
         <div class="section-ms">
             <h1 class="onscroll-r">MEDIA PARTNERS</h1>
             <div class="ms">
@@ -213,7 +213,7 @@
                 ?>
             </div>
         </div>
-    </div>
+    </div> -->
 </div>
 
 <?= $this->endSection(); ?>

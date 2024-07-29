@@ -9,7 +9,7 @@
     <div class="section" style="padding-top: 3rem">
         <div class="detail-horizontal">
             <div class="image onscroll-r">
-                <img src="/assets/images/competition-logo/competitive.png" alt="Competitive Programming" />
+                <img src="/assets/images/competition-logo/competitive.webp" alt="Competitive Programming" />
             </div>
             <div class="keterangan onscroll-r" style="--delay: 1;">
                 <h1>Competitive Programming</h1>

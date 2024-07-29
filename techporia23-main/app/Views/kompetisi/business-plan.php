@@ -9,7 +9,7 @@
     <div class="section" style="padding-top: 3rem;">
         <div class="detail-horizontal">
             <div class="image onscroll-r">
-                <img src="/assets/images/competition-logo/business.png" alt="Business Plan" />
+                <img src="/assets/images/competition-logo/business.webp" alt="Business Plan" />
             </div>
             <div class="keterangan onscroll-r" style="--delay: 1;">
                 <h1>Business Plan</h1>
@@ -110,7 +110,7 @@
                     class="btn btn-secondary">Download Logo Techpo</a>
                 <a href="<?= base_url('download/' . urlencode('GB Business Plan.pdf')); ?>"
                     class="btn btn-secondary">Download Guidebook</a>
-                <a href="<?= base_url('download/' . urlencode('Template Proposal Business Plan.pdf')); ?>"
+                <a href="<?= base_url('download/' . urlencode('Template Proposal Business Plan TECHPO 2024.docx')); ?>"
                     class="btn btn-secondary">Template Proposal</a>
             </div>
         </div>

@@ -1,6 +1,6 @@
 <?= $this->extend('layout/master_layout'); ?>
 
-<?= $this->section('title'); ?> Lukis | Technology Euhporia
+<?= $this->section('title'); ?> Painting | Technology Euhporia
 <?= $this->endSection(); ?>
 
 <?= $this->section('content'); ?>
@@ -9,63 +9,49 @@
     <div class="section" style="padding-top: 3rem">
         <div class="detail-horizontal">
             <div class="image onscroll-r">
-                <img src="/assets/images/competition-logo/painting.png" alt="Lukis" />
+                <img src="/assets/images/competition-logo/painting.webp" alt="Lukis" />
             </div>
             <div class="keterangan onscroll-r" style="--delay: 1;">
-                <h1>Lukis</h1>
+                <h1>Painting</h1>
                 <div class="paragraphs">
                     <p>
-                        Kompetisi Competitive Programming dengan tema "Code Optimization and Performance Tuning"
-                        merupakan salah satu cabang kompetisi yang sangat dinantikan dalam event Technology Euphoria,
-                        sebuah acara bertaraf nasional yang diadakan untuk mahasiswa aktif di perguruan tinggi dan siswa
-                        SMA/SMK sederajat di Indonesia. Competitive Programming ini terdiri dari dua babak, yaitu babak
-                        penyisihan yang dilakukan secara online melalui platform zoom meeting dan babak final yang
-                        dilakukan secara hybrid di Fakultas Ilmu Komputer Universitas Sriwijaya dan Zoom Meeting.
+                        Kompetisi Painting adalah acara atau kontes di mana seniman, baik amatir maupun profesional, bersaing untuk menunjukkan bakat dan keterampilan mereka dalam seni lukis. Dalam kompetisi ini, peserta biasanya diminta untuk membuat karya seni berdasarkan tema tertentu atau dalam kategori bebas. Karya-karya tersebut kemudian dinilai oleh panel juri yang berpengalaman dalam seni rupa.
                     </p>
                     <p>
-                        Tujuan utama dari kompetisi ini adalah menguji kemampuan peserta dalam berpikir logis dan
-                        sistematis dalam memecahkan persoalan dengan menggunakan bahasa pemrograman C++/Java. Fokus
-                        utama perlombaan ini adalah mengoptimalkan kode dan meningkatkan kinerja program yang ditulis
-                        oleh peserta.
+                        Kriteria penilaian dapat mencakup aspek-aspek seperti teknik, kreativitas, interpretasi tema, komposisi, dan penggunaan warna. Kompetisi Painting sering kali diselenggarakan oleh institusi seni, sekolah, komunitas seni, atau sebagai bagian dari festival budaya. Pemenang kompetisi biasanya mendapatkan penghargaan berupa hadiah uang, sertifikat, pameran karya, atau kesempatan untuk berpartisipasi dalam acara seni yang lebih besar.
                     </p>
                 </div>
                 <table class="details-table">
-                    <tr>
+                <tr>
                         <td><i class='bx bx-group'></i> Pendaftaran Peserta</td>
-                        <td>01 Agustus - 31 Agustus 2024</td>
+                        <td>01 Agustus - 30 Agustus 2024</td>
                     </tr>
                     <tr>
-                        <td><i class='bx bx-wrench'></i> Technical Meeting</td>
-                        <td>27 September 2023</td>
+                        <td><i class='bx bx-calendar-event'></i> Lomba Berlangsung</td>
+                        <td>09 Oktober - 23 Oktober 2024</td>
                     </tr>
                     <tr>
-                        <td><i class='bx bx-calendar-event'></i> Babak Penyisihan</td>
-                        <td>8 Oktober 2023</td>
+                        <td><i class='bx bx-calendar-event'></i> Pengumpulan</td>
+                        <td>24 Oktober 2024</td>
                     </tr>
                     <tr>
-                        <td><i class='bx bx-notepad'></i> Pengumuman Finalis</td>
-                        <td>12 Oktober 2023</td>
-                    </tr>
-                    <tr>
-                        <td><i class='bx bx-calendar-event'></i> Opening Ceremony</td>
-                        <td>16 Oktober 2023</td>
+                        <td><i class='bx bx-calendar-event'></i> Pengumpulan (Untuk yang Terpilih)</td>
+                        <td>25 Oktober 2024</td>
                     </tr>
                     <tr>
                         <td><i class='bx bx-calendar-event'></i> Babak Final</td>
-                        <td>18 Oktober 2023</td>
+                        <td>26 Oktober 2024</td>
                     </tr>
                     <tr>
                         <td><i class='bx bx-notepad'></i> Pengumuman Pemenang</td>
-                        <td>21 Oktober 2023</td>
+                        <td>27 Oktober 2024</td>
                     </tr>
                 </table>
-                <?php if ($data): ?>
+                <?php if ($data) : ?>
                     <div class="badge badge-success" style="margin-top: 2rem; display: block;">Sudah Daftar</div>
-                    <a href="<?= base_url('profile'); ?>" class="btn btn-info-solid"
-                        style="display: block; margin-top: 1rem;">Lihat Detail</a>
-                <?php else: ?>
-                    <a href="<?= base_url('profile/daftar-lomba'); ?>" class="btn btn-secondary"
-                        style="margin-top: 2rem;">Daftar Sekarang</a>
+                    <a href="<?= base_url('profile'); ?>" class="btn btn-info-solid" style="display: block; margin-top: 1rem;">Lihat Detail</a>
+                <?php else : ?>
+                    <a href="<?= base_url('profile/daftar-lomba'); ?>" class="btn btn-secondary" style="margin-top: 2rem;">Daftar Sekarang</a>
                 <?php endif; ?>
             </div>
         </div>
@@ -81,7 +67,7 @@
                 <li><span id="seconds">12</span>Detik</li>
             </ul>
         </div>
-        <div class="informasi-lomba">
+        <!-- <div class="informasi-lomba">
             <h1 class="onscroll-r">Informasi Lomba</h1>
             <ul>
                 <li class="onscroll-r"><i class='bx bxs-chevron-right'></i> Seluruh peserta diwajibkan membaca guidebook
@@ -94,63 +80,46 @@
                     mengikuti lomba</li>
             </ul>
             <div class="links onscroll-r">
-                <a href="<?= base_url('download/'.urlencode('GB CP.pdf')); ?>" class="btn btn-secondary">Download Guidebook</a>
+                <a href="<?= base_url('download/' . urlencode('GB CP.pdf')); ?>" class="btn btn-secondary">Download Guidebook</a>
             </div>
-        </div>
+        </div> -->
         <div class="faq onscroll">
             <h1>Frequently Asked Question (FAQ)</h1>
             <ol>
                 <li>
-                    Bagaimana cara mendaftarkan diri dalam kompetisi Competitive Programming Technology Euphoria 2023?
+                    Apakah peserta lomba Painting menghadiri pembukaan pameran atau acara lomba?
                     <span class="answer">
-                        Peserta telah mengikuti prosedur pendaftaran pada website resmi Techphoria 2023 yakni
-                        http://technologyeuphoria.web.id atau http://techphoria.ilkom.unsri.ac.id dan mengisi data
-                        kelompok dengan lengkap. Peserta yang tidak memenuhi persyaratan pendaftaran sampai waktu yang
-                        ditentukan akan dinyatakan gugur.
+                    Peserta memiliki kebebasan dalam menghadiri acara, namun diharapkan peserta dapat ikut serta dan menikmati Techphoria Art & Bazar 2024.
                     </span>
                 </li>
                 <li>
-                    Apakah setiap peserta harus melengkapi data pribadi secara terpisah?
+                    Apakah karya yang pernah diikutsertakan dalam kompetisi lain dapat diikutsertakan kembali?
                     <span class="answer">
-                        Pengunggahan data dilakukan dengan mengunggah foto/scan bukti pembayaran dan Foto/scan Kartu
-                        Tanda Pelajar.
+                    Karya yang dikirimkan harus berupa karya yang belum pernah didaftarkan pada lomba lainnya.
                     </span>
                 </li>
                 <li>
-                    Bolehkah saya menjadi anggota di tim competitive programming yang lain?
+                    Apakah karya seni yang diajukan harus karya baru atau bisa karya lama?
                     <span class="answer">
-                        Tidak, satu anggota tidak bisa berada di tim lain dalam kompetisi ini.
+                    Karya yang dikumpulkan harus berupa karya yang baru, teknis perlombaan akan meminta peserta untuk menyertakan sebuah video proses pembuatan karya.
                     </span>
                 </li>
                 <li>
-                    Berapa jumlah maksimal anggota dalam satu tim?
+                    Jika peserta lomba Painting berhalangan hadir untuk penyerahan karya secara offline, apakah peserta boleh mengirimkan karyanya melalui ekspedisi?
                     <span class="answer">
-                        Setiap peserta dapat mengikuti lomba secara individu (1 orang) maupun tim yang beranggotakan
-                        maksimal 3 orang mahasiswa. Masing-masing anggota boleh berasal dari universitas yang berbeda.
+                    Apabila peserta berhalangan untuk hadir untuk penyerahan, peserta diperbolehkan untuk menggunakan jasa ekspedisi seperti GoSend, GrabExpress, etc.
                     </span>
                 </li>
                 <li>
-                    Bagaimana sistem kompetisi Competitive Programming?
+                    Apakah karya seni yang dikirimkan akan dikembalikan kepada peserta?
                     <span class="answer">
-                        Pada kompetisi ini, perlombaan dilakukan di platform hackerrank. Terdapat dua babak, yaitu babak
-                        penyisihan yang dilaksanakan secara daring melalui zoom meeting dan babak final yang
-                        diselenggarakan secara hybrid di Fakultas Ilmu Komputer Universitas Sriwijaya dan Zoom Meeting.
+                        Setelah rangkaian acara telah selesai karya seni akan dikembalikan kepada peserta.
                     </span>
                 </li>
                 <li>
-                    Bagaimana mekanisme perlombaan?
+                    Apakah karya seni yang diikutsertakan harus merupakan karya asli (original)?
                     <span class="answer">
-                        Peserta wajib memiliki akun aktif Hackerrank dengan nama akun yang sama dengan nama tim saat
-                        didaftarkan dan terdapat soal yang harus diselesaikan dalam waktu 120 menit. Peserta harus
-                        menjawab soal dengan bahasa pemrograman C++ atau Java. Penilaian akan diambil dari scoreboard
-                        yang tertera pada Hackerrank.
-                    </span>
-                </li>
-                <li>
-                    Bolehkah peserta Competitive Programming juga mendaftarkan diri pada cabang kompetisi lain di
-                    Techphoria 2023?
-                    <span class="answer">
-                        Boleh, tetapi hanya sebagai anggota.
+                    Iya, karya seni yang diikutsertakan dalam suatu kompetisi atau pameran harus merupakan karya asli. Karya tersebut harus dibuat oleh peserta itu sendiri tanpa menyalin atau menjiplak karya orang lain.
                     </span>
                 </li>
             </ol>
@@ -160,8 +129,8 @@
 
 <script type="text/javascript" src="<?= base_url('assets/js/competition.js'); ?>"></script>
 <script type="text/javascript">
-    let countdownDate = new Date('Sep 1, 2024').getTime();
-    let x = setInterval(function () {
+    let countdownDate = new Date('Aug 31, 2024').getTime();
+    let x = setInterval(function() {
         let now = new Date().getTime();
         let distance = countdownDate - now;
 

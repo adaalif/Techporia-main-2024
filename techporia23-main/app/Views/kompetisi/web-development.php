@@ -9,7 +9,7 @@
     <div class="section" style="padding-top: 3rem">
         <div class="detail-horizontal">
             <div class="image onscroll-r">
-                <img src="/assets/images/competition-logo/web.png" alt="Web Development" />
+                <img src="/assets/images/competition-logo/web.webp" alt="Web Development" />
             </div>
             <div class="keterangan onscroll-r" style="--delay: 1;">
                 <h1>Web Development</h1>
@@ -112,7 +112,7 @@
                     class="btn btn-secondary">Download Logo Techpo</a>
                 <a href="<?= base_url('download/' . urlencode('GB Web Development.pdf')); ?>"
                     class="btn btn-secondary">Download Guidebook</a>
-                <a href="<?= base_url('download/' . urlencode('Template Proposal WebDev.docx')); ?>"
+                <a href="<?= base_url('download/' . urlencode('Template Proposal WebDev TECHPO 2024.docx')); ?>"
                     class="btn btn-secondary">Template Proposal</a>
             </div>
         </div>

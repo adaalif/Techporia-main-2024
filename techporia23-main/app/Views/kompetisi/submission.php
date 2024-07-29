@@ -10,7 +10,7 @@
         <div class="submission-flex">
             <?php if ($data['id_kompetisi'] == 5): ?>
 
-                <img src="<?= base_url('assets/images/competition-logo/bplan.webp'); ?>" alt="Business Plan"
+                <img src="<?= base_url('assets/images/competition-logo/business.webp'); ?>" alt="Business Plan"
                     class="logo-kompetisi-lg" />
                 <div class="submission-detail">
                     <h1 class="submission-title">Submission Business Plan</h1>
