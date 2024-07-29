@@ -22,7 +22,7 @@
             <input type="text" name="nim" id="nim" placeholder="NIM" />
         </div>
         <div class="input-wrapper">
-            <label for="universitas">Universitas/Sekolah/Umum (jika bukan keduanya)</label>
+            <label for="universitas">Universitas/Sekolah (isi "-"jika bukan keduanya)</label>
             <input type="text" name="universitas" id="universitas" placeholder="Universitas" />
         </div>
         <div class="input-wrapper">

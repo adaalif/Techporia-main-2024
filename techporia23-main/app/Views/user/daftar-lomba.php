@@ -22,7 +22,7 @@
                 <input type="text" name="nama_tim" id="nama_tim" placeholder="Nama Tim" required>
             </div>
             <div class="input-wrapper">
-                <label for="universitas">Universitas</label>
+                <label for="universitas">Universitas/Sekolah (isi"-" jika bukan keduanya)</label>
                 <input type="text" name="universitas" id="universitas" value="<?= $userData['universitas'] ?>" disabled>
             </div>
             <div class="input-wrapper">
@@ -34,9 +34,9 @@
                                 <option value="3">UI/UX Design</option>
                                 <option value="4">Essay</option>
                                 <option value="5">Business Plan</option>
-                                <option value="6">Lukis </option>
-                                <option value="7">Tari</option>
-                                <option value="8">Band </option>
+                                <option value="6">Painting </option>
+                                <option value="7">Dance competition</option>
+                                <option value="8">Band/acoustic </option>
                     </select>
                 </div>
             </div>
