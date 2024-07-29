@@ -213,7 +213,7 @@ class PaymentController extends BaseController
             'Competitive Programming' => 75000,
             'Web Development' => 75000,
             'UI/UX Design' => 75000,
-            'Networking Competition' => 75000,
+            'Essay' => 75000,
             'Business Plan' => 75000,
             'Lukis' => 50000, 
             'Tari' => 80000,  

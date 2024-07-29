@@ -27,7 +27,7 @@
                             </li>
                             <li>
                                 <a class="nav-data-link"
-                                href="<?= base_url('kompetisi/networking-competition'); ?>">Essay</a>
+                                href="<?= base_url('kompetisi/Essay'); ?>">Essay</a>
                             </li>
                             <li>
                                 <a class="nav-data-link"

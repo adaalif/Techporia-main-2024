@@ -6,7 +6,7 @@
 <?= $this->section('content'); ?>
 
 <div class="main">
-    <div class="container top" id="notifikasi">
+    <!-- <div class="container top" id="notifikasi">
         <h1>Notifikasi</h1>
         <?php if ($notifikasi == null): ?>
             <p style="margin-top: 1rem;">
@@ -72,7 +72,7 @@
                 </tbody>
             </table>
         <?php endif; ?>
-    </div>
+    </div> -->
 
     <div class="container" id="tim">
         <div class="container-4">
@@ -82,7 +82,7 @@
                     <path
                         d="M453-280h60v-166h167v-60H513v-174h-60v174H280v60h173v166Zm27.266 200q-82.734 0-155.5-31.5t-127.266-86q-54.5-54.5-86-127.341Q80-397.681 80-480.5q0-82.819 31.5-155.659Q143-709 197.5-763t127.341-85.5Q397.681-880 480.5-880q82.819 0 155.659 31.5Q709-817 763-763t85.5 127Q880-563 880-480.266q0 82.734-31.5 155.5T763-197.684q-54 54.316-127 86Q563-80 480.266-80Zm.234-60Q622-140 721-239.5t99-241Q820-622 721.188-721 622.375-820 480-820q-141 0-240.5 98.812Q140-622.375 140-480q0 141 99.5 240.5t241 99.5Zm-.5-340Z" />
                 </svg>
-                Daftar / Gabung
+                Daftar
             </button>
         </div>
         <table class="table-toggle">
@@ -208,7 +208,7 @@
             <input type="text" name="nim" id="nim" placeholder="NIM" value="<?= $userData['nim'] ?>" />
         </div>
         <div class="input-wrapper">
-            <label for="universitas">Universitas/Sekolah/Umum (jika bukan keduanya)</label>
+            <label for="universitas">Universitas/Sekolah (isi "-"jika bukan keduanya)</label>
             <input type="text" name="universitas" id="universitas" placeholder="Universitas"
                 value="<?= $userData['universitas'] ?>" />
         </div>
@@ -232,7 +232,6 @@
             <div class="btn-group">
                 <button class="tab-link active btn btn-info btn-lg" onclick="openform(event, 'daftar')">Daftar
                     Tim</button>
-                <button class="tab-link btn btn-info btn-lg" onclick="openform(event, 'gabung')">Gabung Tim</button>
             </div>
             <div id="daftar" class="tab-content" style="display: block;">
                 <h2>Daftarkan Tim</h3>
@@ -253,27 +252,18 @@
                             <option value="1">Competitive Programming</option>
                                 <option value="2">Web Development</option>
                                 <option value="3">UI/UX Design</option>
-                                <option value="4">Networking Competition</option>
+                                <option value="4">Essay</option>
                                 <option value="5">Business Plan</option>
-                                <option value="6">Lukis</option>
-                                <option value="7">Tari</option>
-                                <option value="8">Band</option>
+                                <option value="6">Painting</option>
+                                <option value="7">Dance Creation</option>
+                                <option value="8">Band / Acoustic
+
+</option>
                             </select>
                         </div>
                     </div>
                     <input type="submit" value="Daftar" class="btn btn-submit" />
                     <p>*NB: Pembuat tim otomatis menjadi ketua tim</p>
-                    <?= form_close(); ?>
-            </div>
-            <div id="gabung" class="tab-content">
-                <h2>Gabung Tim</h3>
-                    <p>Gabung dengan tim yang sudah dibuat ketua kamu dengan memasukkan ID tim</p>
-                    <?= form_open('profile/join-tim'); ?>
-                    <div class="input-wrapper">
-                        <label for="kode_tim">Kode unik tim</label>
-                        <input type="text" name="kode_tim" id="kode_tim" placeholder="Kode unik tim" required>
-                    </div>
-                    <input type="submit" value="Daftar" class="btn btn-submit" />
                     <?= form_close(); ?>
             </div>
         </div>
