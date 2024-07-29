@@ -9,10 +9,10 @@
                 Kabupaten Ogan Ilir, Sumatera Selatan 30862</p>
             <h1>Social Media</h1>
             <div class="social-media">
-                <a href="https://twitter.com/techphoria21" target="_blank"><i class='bx bxl-twitter'></i></a>
-                <a href="https://www.facebook.com/techphoria.unsri/" target="_blank"><i class='bx bxl-facebook'></i></a>
+                <a href="https://twitter.com/techphoria21" target="_blank"><i class="ri-twitter-x-fill"></i></a>
+                <a href="https://www.facebook.com/techphoria.unsri/" target="_blank"><i class="ri-line-fill"></i></a>
                 <a href="https://www.instagram.com/technology.euphoria/" target="_blank"><i class='bx bxl-instagram'></i></a>
-                <a href="https://www.youtube.com/channel/UC_RQ_xC2E38VvMq02DJyldQ" target="_blank"><i class='bx bxl-youtube'></i></a>
+                <a href="https://www.youtube.com/channel/UC_RQ_xC2E38VvMq02DJyldQ" target="_blank"><i class='bx bxl-tiktok'></i></a>
             </div>
         </div>
         <div class="item onscroll-r" style="--delay: 2;">
@@ -20,15 +20,15 @@
             <div class="contact">
                 <div class="contact-group">
                     <h3><i class='bx bxl-whatsapp'></i> Whatsapp</h3>
-                    <a href="https://wa.me/6285609450273" target="_blank">+62 856-0945-0273 (Putri)</a>
-                    <a href="https://wa.me/6285216710530" target="_blank">+62 852-1671-0530 (Viona)</a>
-                    <a href="https://wa.me/6289531718950" target="_blank">+62 895-3171-8950 (Nadia)</a>
+                    <a href="https://wa.me/6289621934971" target="_blank">+62 896-2193-4971 (Septi)</a>
+                    <a href="https://wa.me/6282175205059" target="_blank">+62 821-7520-5059 (Desta)</a>
+                    <a href="https://wa.me/6281243548552" target="_blank">+62 812-4354-8552 (Nada)</a>
                 </div>
                 <div class="contact-group">
                     <h3><i class='bx bx-phone'></i> Line</h3>
-                    <p>putristy015 (Putri)</p>
-                    <p>nadinzzz (Viona)</p>
-                    <p>nadiamiaw (Nadia)</p>
+                    <p>septianiwidiaa (Septi)</p>
+                    <p>destaa27 (Desta)</p>
+                    <p>nadawafiii (Nada)</p>
                 </div>
                 <div class="contact-group">
                     <h3><i class='bx bx-envelope'></i> Email</h3>
