@@ -9,7 +9,7 @@
     <div class="section" style="padding-top: 3rem;">
         <div class="detail-horizontal">
             <div class="image onscroll-r">
-                <img src="/assets/images/competition-logo/essay.webp" alt="Networking Competition" />
+                <img src="/assets/images/competition-logo/essay.webp" alt="Essay" />
             </div>
             <div class="keterangan onscroll-r" style="--delay: 1;">
                 <h1>Essay</h1>
@@ -60,13 +60,11 @@
                         <td>21 Oktober 2023</td>
                     </tr>
                 </table>
-                <?php if ($data): ?>
+                <?php if ($data) : ?>
                     <div class="badge badge-success" style="margin-top: 2rem; display: block;">Sudah Daftar</div>
-                    <a href="<?= base_url('profile'); ?>" class="btn btn-info-solid"
-                        style="display: block; margin-top: 1rem;">Lihat Detail</a>
-                <?php else: ?>
-                    <a href="<?= base_url('profile/daftar-lomba'); ?>" class="btn btn-secondary"
-                        style="margin-top: 2rem;">Daftar Sekarang</a>
+                    <a href="<?= base_url('profile'); ?>" class="btn btn-info-solid" style="display: block; margin-top: 1rem;">Lihat Detail</a>
+                <?php else : ?>
+                    <a href="<?= base_url('profile/daftar-lomba'); ?>" class="btn btn-secondary" style="margin-top: 2rem;">Daftar Sekarang</a>
                 <?php endif; ?>
             </div>
         </div>
@@ -95,9 +93,10 @@
                     mengikuti lomba</li>
             </ul>
             <div class="links onscroll-r">
-                <a href="<?= base_url('download/' . urlencode('GB NETWORKING.pdf')); ?>"
-                    class="btn btn-secondary">Download
+                <a href="<?= base_url('download/' . urlencode('Logo Technology Euphoria.png')); ?>" class="btn btn-secondary">Download Logo Techpo</a>
+                <a href="<?= base_url('download/' . urlencode('GB UIUX.pdf')); ?>" class="btn btn-secondary">Download
                     Guidebook</a>
+                <a href="<?= base_url('download/' . urlencode('Template Kompetisi Essay TECHPO 2024.docx')); ?>" class="btn btn-secondary">Template Proposal</a>
             </div>
         </div>
         <div class="faq onscroll">
@@ -147,7 +146,7 @@
 
 <script type="text/javascript">
     let countdownDate = new Date('Sep 1, 2024').getTime();
-    let x = setInterval(function () {
+    let x = setInterval(function() {
         let now = new Date().getTime();
         let distance = countdownDate - now;
 

@@ -113,7 +113,7 @@
                     class="btn btn-secondary">Download Logo Techpo</a>
                 <a href="<?= base_url('download/' . urlencode('GB UIUX.pdf')); ?>" class="btn btn-secondary">Download
                     Guidebook</a>
-                <a href="<?= base_url('download/' . urlencode('Template Proposal UI-UX.docx')); ?>"
+                <a href="<?= base_url('download/' . urlencode('Template Proposal UIUX TECHPO 2024.docx')); ?>"
                     class="btn btn-secondary">Template Proposal</a>
             </div>
         </div>
