@@ -25,41 +25,37 @@
                     </p>
                 </div>
                 <table class="details-table">
-                    <tr>
+                <tr>
                         <td><i class='bx bx-group'></i> Pendaftaran Peserta</td>
                         <td>01 Agustus - 31 Agustus 2024</td>
                     </tr>
                     <tr>
-                        <td><i class='bx bx-wrench'></i> Technical Meeting</td>
-                        <td>26 September 2023</td>
-                    </tr>
-                    <tr>
-                        <td><i class='bx bx-calendar-event'></i> Pengumpulan Proposal</td>
-                        <td>27 - 30 September 2023</td>
-                    </tr>
-                    <tr>
                         <td><i class='bx bx-calendar-event'></i> Babak Penyisihan</td>
-                        <td>1 - 10 Oktober 2023</td>
+                        <td>08 September 2024</td>
                     </tr>
                     <tr>
                         <td><i class='bx bx-notepad'></i> Pengumuman Finalis</td>
-                        <td>12 Oktober 2023</td>
+                        <td>09 September 2024</td>
+                    </tr>
+                    <tr>
+                        <td><i class='bx bx-calendar-event'></i> Registrasi Ulang Finalis</td>
+                        <td>10 September - 10 Oktober 2024</td>
+                    </tr>
+                    <tr>
+                        <td><i class='bx bx-wrench'></i> Technical Meeting Finalis</td>
+                        <td>12 Oktober 2024</td>
                     </tr>
                     <tr>
                         <td><i class='bx bx-calendar-event'></i> Opening Ceremony</td>
-                        <td>16 Oktober 2023</td>
+                        <td>24 Oktober 2024</td>
                     </tr>
                     <tr>
-                        <td><i class='bx bx-calendar-event'></i> Pengumpulan Source Code</td>
-                        <td>18 Oktober 2023</td>
-                    </tr>
-                    <tr>
-                        <td><i class='bx bx-calendar-event'></i> Babak Final</td>
-                        <td>19 Oktober 2023</td>
+                        <td><i class='bx bx-calender-event'></i> Babak Final</td>
+                        <td>24 - 25 Oktober 2024</td>
                     </tr>
                     <tr>
                         <td><i class='bx bx-notepad'></i> Pengumuman Pemenang</td>
-                        <td>21 Oktober 2023</td>
+                        <td>27 Oktober 2024</td>
                     </tr>
                 </table>
                 <?php if ($data): ?>
@@ -123,7 +119,7 @@
                     Bagaimana cara mendaftarkan diri dalam kompetisi Web Development Technology Euphoria 2024?
                     <span class="answer">
                         Peserta telah mengikuti prosedur pendaftaran pada website resmi Techphoria 2024
-                        (https://technologyeuphoria.web.id) dan melengkapi data pendaftaran dengan benar. Peserta
+                        (https://technologyeuphoriaunsri.web.id) dan melengkapi data pendaftaran dengan benar. Peserta
                         yang tidak memenuhi persyaratan pendaftaran sampai waktu yang ditentukan akan dinyatakan gugur.
                     </span>
                 </li>

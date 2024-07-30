@@ -37,45 +37,42 @@
                         <td>01 Agustus - 31 Agustus 2024</td>
                     </tr>
                     <tr>
-                        <td><i class='bx bx-wrench'></i> Technical Meeting</td>
-                        <td>26 September 2023</td>
-                    </tr>
-                    <tr>
-                        <td><i class='bx bx-calendar-event'></i> Pengumpulan Design (online)</td>
-                        <td>27 September - 30 September 2023</td>
-                    </tr>
-                    <tr>
                         <td><i class='bx bx-calendar-event'></i> Babak Penyisihan</td>
-                        <td>1 - 10 Oktober 2023</td>
+                        <td>08 September 2024</td>
                     </tr>
                     <tr>
                         <td><i class='bx bx-notepad'></i> Pengumuman Finalis</td>
-                        <td>12 Oktober 2023</td>
+                        <td>09 September 2024</td>
+                    </tr>
+                    <tr>
+                        <td><i class='bx bx-calendar-event'></i> Registrasi Ulang Finalis</td>
+                        <td>10 September - 10 Oktober 2024</td>
+                    </tr>
+                    <tr>
+                        <td><i class='bx bx-wrench'></i> Technical Meeting Finalis</td>
+                        <td>12 Oktober 2024</td>
                     </tr>
                     <tr>
                         <td><i class='bx bx-calendar-event'></i> Opening Ceremony</td>
-                        <td>16 Oktober 2023</td>
+                        <td>24 Oktober 2024</td>
                     </tr>
                     <tr>
-                        <td><i class='bx bx-calendar-event'></i> Babak Final</td>
-                        <td>19 Oktober 2023</td>
+                        <td><i class='bx bx-calender-event'></i> Babak Final</td>
+                        <td>24 - 25 Oktober 2024</td>
                     </tr>
                     <tr>
                         <td><i class='bx bx-notepad'></i> Pengumuman Pemenang</td>
-                        <td>21 Oktober 2023</td>
+                        <td>27 Oktober 2024</td>
                     </tr>
                 </table>
-                <?php if ($data): ?>
+                <?php if ($data) : ?>
                     <div class="badge badge-success" style="margin-top: 2rem; display: block;">Sudah Daftar</div>
-                    <a href="<?= base_url('profile'); ?>" class="btn btn-info-solid"
-                        style="display: block; margin-top: 1rem;">Lihat Detail</a>
-                    <?php if ($isVerified): ?>
-                        <a href="<?= base_url('profile/submission?id=' . $data['tim_id']); ?>" class="btn btn-info-solid"
-                            style="display: block; margin-top: 1rem;">Submission</a>
+                    <a href="<?= base_url('profile'); ?>" class="btn btn-info-solid" style="display: block; margin-top: 1rem;">Lihat Detail</a>
+                    <?php if ($isVerified) : ?>
+                        <a href="<?= base_url('profile/submission?id=' . $data['tim_id']); ?>" class="btn btn-info-solid" style="display: block; margin-top: 1rem;">Submission</a>
                     <?php endif; ?>
-                <?php else: ?>
-                    <a href="<?= base_url('profile/daftar-lomba'); ?>" class="btn btn-secondary"
-                        style="margin-top: 2rem;">Daftar Sekarang</a>
+                <?php else : ?>
+                    <a href="<?= base_url('profile/daftar-lomba'); ?>" class="btn btn-secondary" style="margin-top: 2rem;">Daftar Sekarang</a>
                 <?php endif; ?>
             </div>
         </div>
@@ -109,12 +106,10 @@
                     mengikuti lomba dan template proposal untuk pendaftaran</li>
             </ul>
             <div class="links onscroll-r">
-                <a href="<?= base_url('download/' . urlencode('Logo Technology Euphoria.png')); ?>"
-                    class="btn btn-secondary">Download Logo Techpo</a>
+                <a href="<?= base_url('download/' . urlencode('Logo Technology Euphoria.png')); ?>" class="btn btn-secondary">Download Logo Techpo</a>
                 <a href="<?= base_url('download/' . urlencode('GB UIUX.pdf')); ?>" class="btn btn-secondary">Download
                     Guidebook</a>
-                <a href="<?= base_url('download/' . urlencode('Template Proposal UIUX TECHPO 2024.docx')); ?>"
-                    class="btn btn-secondary">Template Proposal</a>
+                <a href="<?= base_url('download/' . urlencode('Template Proposal UIUX TECHPO 2024.docx')); ?>" class="btn btn-secondary">Template Proposal</a>
             </div>
         </div>
         <div class="faq onscroll">
@@ -160,7 +155,7 @@
 
 <script type="text/javascript">
     let countdownDate = new Date('Sep 1, 2024').getTime();
-    let x = setInterval(function () {
+    let x = setInterval(function() {
         let now = new Date().getTime();
         let distance = countdownDate - now;
 

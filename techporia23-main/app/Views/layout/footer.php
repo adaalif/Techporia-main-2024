@@ -9,10 +9,10 @@
                 Kabupaten Ogan Ilir, Sumatera Selatan 30862</p>
             <h1>Social Media</h1>
             <div class="social-media">
-                <a href="https://twitter.com/techphoria21" target="_blank"><i class="ri-twitter-x-fill"></i></a>
-                <a href="https://www.facebook.com/techphoria.unsri/" target="_blank"><i class="ri-line-fill"></i></a>
+                <a href="https://x.com/techphoria24 " target="_blank"><i class="ri-twitter-x-fill"></i></a>
+                <a href="" target="_blank"><i class="ri-line-fill"></i></a>
                 <a href="https://www.instagram.com/technology.euphoria/" target="_blank"><i class='bx bxl-instagram'></i></a>
-                <a href="https://www.youtube.com/channel/UC_RQ_xC2E38VvMq02DJyldQ" target="_blank"><i class='bx bxl-tiktok'></i></a>
+                <a href="https://www.tiktok.com/@technology.euphoria?_t=8oQaSjjdYdM&_r=1" target="_blank"><i class='bx bxl-tiktok'></i></a>
             </div>
         </div>
         <div class="item onscroll-r" style="--delay: 2;">

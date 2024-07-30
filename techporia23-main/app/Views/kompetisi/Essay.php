@@ -15,19 +15,7 @@
                 <h1>Essay</h1>
                 <div class="paragraphs">
                     <p>
-                        Kompetisi Networking Capture the Flag merupakan salah satu cabang kompetisi baru dalam event
-                        Technology Euphoria, sebuah acara bertaraf nasional yang diadakan untuk mahasiswa aktif
-                        perguruan tinggi dan siswa sma/smk sederajat di indonesia. Tema yang diusung untuk kompetisi
-                        Networking Capture the Flag kali ini adalah “the New Era Eechnology of Capture the Flag in
-                        Industry”.
-                    </p>
-                    <p>
-                        Tujuan utama dari kompetisi ini adalah menguji kemampuan dan pengetahuan peserta dalam bidang
-                        web hacking, cryptography, digital forensic, reverse engineering, dan binary exploitation. Fokus
-                        utama perlombaan ini didasarkan kepada ketepatan dan kecepatan peserta dalam mencari flag yang
-                        sudah disembunyikan dalam sistem. Kompetisi akan dibagi dalam 2 babak, yaitu babak penyisihan
-                        yang dilakukan secara online melalui zoom meeting dan babak final secara hybrid di Fakultas Ilmu
-                        Komputer Universitas Sriwijaya dan Zoom Meeting.
+                        Lomba Essay adalah sebuah kompetisi karya tulis yang di mana peserta diminta untuk membahas mengenai topik tertentu sesuai dengan tema yang ditentukan oleh penyelenggara, peserta diminta mengungkapkan pendapat pribadinya dengan menuangkannya kedalam bentuk paragraf. Secara umum, essay berfungsi untuk menyampaikan ide, argumentasi, atau analisis mendalam mengenai subjek yang dibahas. Kompetisi ini diadakan dengan tujuan untuk mendorong peserta untuk mengembangkan keterampilan menulis, berpikir kritis, dan mengungkapkan ide dengan jelas dan persuasif.
                     </p>
                 </div>
                 <table class="details-table">
@@ -36,28 +24,32 @@
                         <td>01 Agustus - 31 Agustus 2024</td>
                     </tr>
                     <tr>
-                        <td><i class='bx bx-wrench'></i> Technical Meeting</td>
-                        <td>27 September 2023</td>
-                    </tr>
-                    <tr>
                         <td><i class='bx bx-calendar-event'></i> Babak Penyisihan</td>
-                        <td>30 September 2023</td>
+                        <td>08 September 2024</td>
                     </tr>
                     <tr>
                         <td><i class='bx bx-notepad'></i> Pengumuman Finalis</td>
-                        <td>12 Oktober 2023</td>
+                        <td>09 September 2024</td>
+                    </tr>
+                    <tr>
+                        <td><i class='bx bx-calendar-event'></i> Registrasi Ulang Finalis</td>
+                        <td>10 September - 10 Oktober 2024</td>
+                    </tr>
+                    <tr>
+                        <td><i class='bx bx-wrench'></i> Technical Meeting Finalis</td>
+                        <td>12 Oktober 2024</td>
                     </tr>
                     <tr>
                         <td><i class='bx bx-calendar-event'></i> Opening Ceremony</td>
-                        <td>16 Oktober 2023</td>
+                        <td>24 Oktober 2024</td>
                     </tr>
                     <tr>
-                        <td><i class='bx bx-calendar-event'></i> Babak Final</td>
-                        <td>20 Oktober 2023</td>
+                        <td><i class='bx bx-calender-event'></i> Babak Final</td>
+                        <td>24 - 25 Oktober 2024</td>
                     </tr>
                     <tr>
                         <td><i class='bx bx-notepad'></i> Pengumuman Pemenang</td>
-                        <td>21 Oktober 2023</td>
+                        <td>27 Oktober 2024</td>
                     </tr>
                 </table>
                 <?php if ($data) : ?>
@@ -86,11 +78,16 @@
                 <li class="onscroll-r"><i class='bx bxs-chevron-right'></i> Seluruh peserta diwajibkan membaca guidebook
                     sebelum melakukan pendaftaran</li>
                 <li class="onscroll-r"><i class='bx bxs-chevron-right'></i> Peserta mendaftarkan timnya pada laman
-                    pendaftaran Networking Competition</li>
-                <li class="onscroll-r"><i class='bx bxs-chevron-right'></i> Seluruh Rangkaian Kompetisi Akan
-                    Diselenggarakan Secara hybrid di Fakultas Ilmu Komputer Universitas Sriwijaya dan Zoom Meeting</li>
+                    pendaftaran Essay</li>
+                <li class="onscroll-r"><i class='bx bxs-chevron-right'></i> Bila tim sudah menyelesaikan proses
+                    pembayaran dan pendaftaran setiap tim harus mengirimkan proposal pada laman perlombaan Essay,
+                    bisa diakses melalui laman user</li>
+                <li class="onscroll-r"><i class='bx bxs-chevron-right'></i> Tim yang lolos penyeleksian tahap awal akan
+                    dikonfirmasi pada laman email dan diharapkan mengikuti arahan dari Tim Essay</li>
+                <li class="onscroll-r"><i class='bx bxs-chevron-right'></i> Rangkaian acara akan dilakukan secara hybrid
+                    di Fakultas Ilmu Komputer Universitas Sriwijaya dan Zoom Meeting
                 <li class="onscroll-r"><i class='bx bxs-chevron-right'></i> Silahkan download guidebook untuk pedoman
-                    mengikuti lomba</li>
+                    mengikuti lomba dan template proposal untuk pendaftaran</li>
             </ul>
             <div class="links onscroll-r">
                 <a href="<?= base_url('download/' . urlencode('Logo Technology Euphoria.png')); ?>" class="btn btn-secondary">Download Logo Techpo</a>
@@ -103,10 +100,10 @@
             <h1>Frequently Asked Question (FAQ)</h1>
             <ol>
                 <li>
-                    Bagaimana cara mendaftarkan diri dalam kompetisi Networking Technology Euphoria 2024?
+                    Bagaimana cara mendaftarkan diri dalam kompetisi Essay Techphoria 2024?
                     <span class="answer">
                         Peserta telah mengikuti prosedur pendaftaran pada website resmi Techphoria 2024
-                        (https://technologyeuphoria.web.id) dan melengkapi data pendaftaran dengan benar. Peserta yang
+                        (https://technologyeuphoriaunsri.web.id/) dan melengkapi data pendaftaran dengan benar. Peserta yang
                         tidak memenuhi persyaratan pendaftaran sampai waktu yang ditentukan akan dinyatakan gugur.
                     </span>
                 </li>
@@ -114,31 +111,56 @@
                     Apakah setiap peserta harus melengkapi data pribadi secara terpisah?
                     <span class="answer">
                         Pengunggahan data diwakilkan oleh ketua tim dengan melampirkan foto/scan bukti pembayaran dan
-                        Foto/scan Kartu Tanda Mahasiswa.
+                        foto/scan kartu tanda mahasiswa atau kartu pelajar.
                     </span>
                 </li>
                 <li>
-                    Bolehkah saya menjadi anggota di tim Networking yang lain?
+                    Apakah karya yang pernah diikutsertakan dalam kompetisi lain dapat diikutsertakan kembali?
                     <span class="answer">
-                        Tidak, satu anggota hanya bisa bergabung dalam satu tim saja pada kompetisi ini.
+                        Bisa, jika belum mendapatkan gelar juara.
                     </span>
                 </li>
                 <li>
-                    Berapa jumlah maksimal anggota dalam satu tim?
+                    Bolehkah mendaftar jika kelompok saya hanya terdiri dari dua orang?
                     <span class="answer">
-                        Setiap tim yang mengikuti kompetisi memiliki maksimal 3 orang dengan 1 orang ketua tim.
-                        Masing-masing anggota boleh berasal dari institusi yang berbeda.
+                        Peserta dapat mendaftar selama tidak melebihi 3 orang dalam satu kelompok.
                     </span>
                 </li>
                 <li>
-                    Bagaimana sistem kompetisi Networking?
+                    Bolehkah seorang peserta menjadi anggota dari beberapa tim di kompetisi Essay?
                     <span class="answer">
-                        Pada kompetisi ini, perlombaan dilakukan di platform CTFD. Terdapat dua babak, yaitu babak
-                        penyisihan yang dilaksanakan secara daring melalui zoom meeting dan babak final yang
-                        diselenggarakan secara hybrid di Fakultas Ilmu Komputer Universitas Sriwijaya dan Zoom Meeting.
+                        Boleh, tetapi hanya boleh menjadi ketua pada salah satu tim atau menjadi anggota pada maksimal 3
+                        cabang kompetisi.
                     </span>
                 </li>
-
+                <li>
+                    Bagaimana sistem kompetisi Essay?
+                    <span class="answer">
+                        Pada kompetisi ini terdapat dua babak, yakni babak penyisihan berupa pengumpulan proposal dan
+                        final yang dilaksanakan secara hybrid di Universitas Sriwijaya dan Zoom Meeting.
+                    </span>
+                </li>
+                <li>
+                    Bagaimana saya bisa mendapatkan template untuk proposal?
+                    <span class="answer">
+                        Template proposal dapat diunduh pada website Tehcphoria 2024 di
+                        https://technologyeuphoriaunsri.web.id/
+                    </span>
+                </li>
+                <li>
+                    Bolehkah tim saya mendaftar jika berasal dari jenjang pendidikan berbeda (seperti D3 dan S1 dalam
+                    satu tim) maupun dari jurusan yang berbeda?
+                    <span class="answer">
+                        Diperbolehkan, asal tidak beda universitas.
+                    </span>
+                </li>
+                <li>
+                    Jika tim saya lolos babak penyisihan apakah karya saya boleh diubah?
+                    <span class="answer">
+                        Perubahan yang boleh dilakukan hanya sebatas perubahan minor seperti desain produk dan bukan
+                        mengubah produk inti atau melakukan pivot.
+                    </span>
+                </li>
             </ol>
         </div>
     </div>
