@@ -7,7 +7,10 @@
 
 <div class="main">
     <div class="section light" style="padding: 3rem 0;">
-        <h1>Coming Soon</h1>
+        <div class="comingsoon">
+            <img src="<?php echo base_url('assets/images/MASKOT 4.png') ?>" alt="maskot" class="onscroll-r" style="--delay: 0;" />
+            <h1>Coming Soon</h1>
+        </div>
         <!-- <div class="detail-horizontal">
             <div class="image">
                 <img src="/assets/images/seminar.webp" alt="Seminar Nasional" />
@@ -62,11 +65,11 @@
                         <li>0877-9400-9390 (Nur Annisa Basulina)</li>
                     </ol>
                 </div>
-                <?php if ($isOrdered): ?>
+                <?php if ($isOrdered) : ?>
                     <a href="<?= base_url('seminar/tiket'); ?>" class="btn btn-secondary">Lihat Invoice</a>
                     <a href="https://chat.whatsapp.com/FrwMn2xKnQsFqb6GYk9c89" target="_blank"
                         class="btn btn-secondary" style="margin-left: 2rem;">Join Grup WhatsApp</a>
-                <?php else: ?>
+                <?php else : ?>
                     <a href="<?= base_url('seminar/daftar'); ?>" class="btn btn-secondary">Daftar Seminar</a>
                 <?php endif; ?>
             </div>

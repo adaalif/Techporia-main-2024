@@ -7,7 +7,11 @@
 
 <div class="main">
     <div class="section" style="padding-top: 3rem;">
-        <div class="detail-horizontal">
+        <div class="comingsoon">
+            <img src="<?php echo base_url('assets/images/MASKOT 4.png') ?>" alt="maskot" class="onscroll-r" style="--delay: 0;" />
+            <h1>Day - 1</h1>
+        </div>
+        <!-- <div class="detail-horizontal">
             <div class="image onscroll-r">
                 <img src="/assets/images/competition-logo/essay.webp" alt="Essay" />
             </div>
@@ -162,7 +166,7 @@
                     </span>
                 </li>
             </ol>
-        </div>
+        </div> -->
     </div>
 </div>
 

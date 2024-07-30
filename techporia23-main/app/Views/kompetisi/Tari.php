@@ -7,7 +7,11 @@
 
 <div class="main">
     <div class="section" style="padding-top: 3rem">
-        <div class="detail-horizontal">
+        <div class="comingsoon">
+            <img src="<?php echo base_url('assets/images/MASKOT 4.png') ?>" alt="maskot" class="onscroll-r" style="--delay: 0;" />
+            <h1>Day - 1</h1>
+        </div>
+        <!-- <div class="detail-horizontal">
             <div class="image onscroll-r">
                 <img src="/assets/images/competition-logo/dance.webp" alt="Tari" />
             </div>
@@ -66,22 +70,6 @@
                 <li><span id="seconds">12</span>Detik</li>
             </ul>
         </div>
-        <!-- <div class="informasi-lomba">
-            <h1 class="onscroll-r">Informasi Lomba</h1>
-            <ul>
-                <li class="onscroll-r"><i class='bx bxs-chevron-right'></i> Seluruh peserta diwajibkan membaca guidebook
-                    sebelum melakukan pendaftaran</li>
-                <li class="onscroll-r"><i class='bx bxs-chevron-right'></i> Peserta mendaftarkan timnya pada laman
-                    pendaftaran Competitive Programming</li>
-                <li class="onscroll-r"><i class='bx bxs-chevron-right'></i> Seluruh rangkaian kompetisi akan
-                    diselenggarakan secara hybrid di Fakultas Ilmu Kompueter Universitas Sriwijaya dan Zoom Meeting.</li>
-                <li class="onscroll-r"><i class='bx bxs-chevron-right'></i> Silahkan download guidebook untuk pedoman
-                    mengikuti lomba</li>
-            </ul>
-            <div class="links onscroll-r">
-                <a href="<?= base_url('download/' . urlencode('GB CP.pdf')); ?>" class="btn btn-secondary">Download Guidebook</a>
-            </div>
-        </div> -->
         <div class="faq onscroll">
             <h1>Frequently Asked Question (FAQ)</h1>
             <ol>
@@ -116,7 +104,7 @@
                     </span>
                 </li>
             </ol>
-        </div>
+        </div> -->
     </div>
 </div>
 

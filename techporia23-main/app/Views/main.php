@@ -15,7 +15,7 @@
             <div id="theme-text"></div>
             <div class="container-5" style="margin-top: 3rem;">
                 <a href="<?= base_url('#about'); ?>" class="btn btn-fancy">EXPLORE</a>
-                <a href="<?= base_url('register'); ?>" class="btn btn-outline-fancy">JOIN US</a>
+                <!-- <a href="<?= base_url('register'); ?>" class="btn btn-outline-fancy">JOIN US</a> -->
             </div>
         </div>
     </div>

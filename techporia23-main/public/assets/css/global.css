@@ -2140,3 +2140,38 @@ textarea {
 .submission-detail {
   padding: 2rem;
 }
+
+.comingsoon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10vh 10vw;
+  width: 100%;
+  gap: 3rem;
+}
+
+@media (max-width: 960px) {
+  .comingsoon {
+    flex-direction: column;
+    padding: 1rem 10vw;
+    gap: 0.5rem;
+  }
+}
+
+.comingsoon img {
+  width: 27vw;
+}
+
+@media (max-width: 960px) {
+  .comingsoon img {
+    width: 70vw;
+  }
+}
+
+.comingsoon h1 {
+  font-size: clamp(30px, 3.5vw, 3.5rem);
+  font-weight: 700;
+  font-family: "Technonomicon";
+  text-align: center;
+}

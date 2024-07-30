@@ -7,7 +7,11 @@
 
 <div class="main">
     <div class="section" style="padding-top: 3rem">
-        <div class="detail-horizontal">
+        <div class="comingsoon">
+            <img src="<?php echo base_url('assets/images/MASKOT 4.png') ?>" alt="maskot" class="onscroll-r" style="--delay: 0;" />
+            <h1>Day - 1</h1>
+        </div>
+        <!-- <div class="detail-horizontal">
             <div class="image onscroll-r">
                 <img src="/assets/images/competition-logo/web.webp" alt="Web Development" />
             </div>
@@ -58,15 +62,15 @@
                         <td>27 Oktober 2024</td>
                     </tr>
                 </table>
-                <?php if ($data): ?>
+                <?php if ($data) : ?>
                     <div class="badge badge-success" style="margin-top: 2rem; display: block;">Sudah Daftar</div>
                     <a href="<?= base_url('profile'); ?>" class="btn btn-info-solid"
                         style="display: block; margin-top: 1rem;">Lihat Detail</a>
-                    <?php if ($isVerified): ?>
+                    <?php if ($isVerified) : ?>
                         <a href="<?= base_url('profile/submission?id=' . $data['tim_id']); ?>" class="btn btn-info-solid"
                             style="display: block; margin-top: 1rem;">Submission</a>
                     <?php endif; ?>
-                <?php else: ?>
+                <?php else : ?>
                     <a href="<?= base_url('profile/daftar-lomba'); ?>" class="btn btn-secondary"
                         style="margin-top: 2rem;">Daftar Sekarang</a>
                 <?php endif; ?>
@@ -186,13 +190,13 @@
                     </span>
                 </li>
             </ol>
-        </div>
+        </div> -->
     </div>
 </div>
 
 <script type="text/javascript">
     let countdownDate = new Date('Sep 1, 2024').getTime();
-    let x = setInterval(function () {
+    let x = setInterval(function() {
         let now = new Date().getTime();
         let distance = countdownDate - now;
 
